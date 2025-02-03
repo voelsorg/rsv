@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% from "macros/teaser.html" import render_teaser %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+{% for blk in this.schedule.blocks %}
+  {{ blk }}
+{% endfor %}
+
+
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+  <div class="col-10 col-sm-8 col-lg-6">
+    <img src="{{ this.image|url }}" class="d-block mx-lg-auto img-fluid" alt="{{ this.image_alt }}" width="100%" loading="lazy">
+  </div>
+  <div class="col-lg-6">
+    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">{{ this.title }}</h1>
+    <p class="lead">{{ this.body }}</p>
+  </div>
+</div>
+<h2>Aktuelles</h2>
+<div class="album mt-3 mb-5">
+  <div class="container ps-0 pe-0">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
+      {% for child in site.query('/aktuelles').order_by('-pub_date').limit(3) %}
+        {{ render_teaser(child, variant="aktuell") }}
+      {% endfor %}
+    </div>
+    <div class="col">
+      <a href="{{ '/aktuelles'|url }}" class="btn btn-primary">zur Übersicht aller Artikel</a>
+    </div>
+  </div>
+</div>
+<h2>Schwerpunkte</h2>
+<div class="album mt-3 mb-5">
+  <div class="container ps-0 pe-0">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
+      {% for child in site.query('/schwerpunkte').filter(F.featured).filter(F.status == 'laufend').order_by('-pub_date') %}
+        {{ render_teaser(child, variant="schwerpunkt") }}
+      {% endfor %}
+    </div>
+    <div class="col">
+      <a href="{{ '/schwerpunkte'|url }}" class="btn btn-primary">zur Übersicht aller Artikel</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

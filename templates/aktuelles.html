@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% from "macros/teaser.html" import render_teaser %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h1>{{ this.title }}</h1>
+
+  <div class="album mt-5">
+    <div class="container ps-0 pe-0">
+      {% for child in this.children.order_by('-pub_date') %}
+        {% if loop.first %}
+        <div class="row row-cols-1 row-cols-sm-2 g-3 mb-3">
+        {% endif %}
+        {% if loop.index == 3 %}
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
+        {% endif %}
+        {% if loop.index == 6 %}
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 mb-3">
+        {% endif %}
+            {{ render_teaser(child, variant="aktuell") }}
+        {% if loop.last or loop.index==2 or loop.index==5 %}
+        </div>
+        {% endif %}
+      {% endfor %}
+  </div>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% from "macros/teaser.html" import render_teaser %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h1>{{ this.title }}</h1>
+  <p class="lead">{{ this .teaser }}</p>
+  {% if this.attachments.images %}
+  <img class="mb-3" src="{{ this.attachments.images.first()|url }}" width="100%" loading="lazy" />
+  {% endif %}
+  {{ this.body }}
+{% endblock %}

@@ -1,2 +1,8 @@
 [project]
 name = Radstammtisch Völs
+locale = de
+
+[attachment_types]
+; <.file-ext> = <type>
+.zip = document
+.pdf = document
