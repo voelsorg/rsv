@@ -26,7 +26,7 @@
       {% endfor %}
     </div>
     <div class="col">
-      <a href="{{ '/aktuelles'|url }}" class="btn btn-primary">zur Übersicht aller Artikel</a>
+      <a href="{{ '/aktuelles'|url }}" class="btn btn-primary">zur Übersicht aller Beiträge </a>
     </div>
   </div>
 </div>
@@ -34,12 +34,12 @@
 <div class="album mt-3 mb-5">
   <div class="container ps-0 pe-0">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
-      {% for child in site.query('/schwerpunkte').filter(F.featured).filter(F.status == 'laufend').order_by('-pub_date') %}
+      {% for child in site.query('/schwerpunkte').filter(F.featured == true).order_by('-pub_date') %}
         {{ render_teaser(child, variant="schwerpunkt") }}
       {% endfor %}
     </div>
     <div class="col">
-      <a href="{{ '/schwerpunkte'|url }}" class="btn btn-primary">zur Übersicht aller Artikel</a>
+      <a href="{{ '/schwerpunkte'|url }}" class="btn btn-primary">zur Übersicht aller Schwerpunkte</a>
     </div>
   </div>
 </div>

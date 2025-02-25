@@ -21,4 +21,23 @@ Davon überdacht
 ----
 fact: 2
 ---
-state: in Planung
+state: laufend
+---
+downloads:
+
+#### download ####
+document: anmeldung-elternsprechtag-eltern-virtuell-allgmein-1.pdf
+----
+title: Anmeldung
+#### download ####
+document: lightning-talk-acs2025.pdf
+----
+title: Talk
+#### download ####
+document: bootstrap-5.3.3-dist.zip
+----
+title: Infopaket
+---
+image: bikerack-old-frames.jpeg
+---
+featured: yes

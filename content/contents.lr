@@ -1,12 +1,15 @@
 _model: startpage
 ---
-title: Radstammtisch Völs in Tirol
+title: Radstammtisch Völs
 ---
 body:
 
-Sichere Wege für Alle!
+## Sichere Wege für Alle!
 
-Wir sind eine Gruppe Alltagsradlende aus Völs. Wir treffen uns regelmäßig um besserere Bedingungen für Radfahrende zu fordern. 
+**Straßen und Radwege sind erst dann gut, wenn auch Kinder auf ihnen sicher radln können!**
+Egal ob zur Schule, zu Freund:innen oder zum Hobby: Dass Kinder sicher und unbeschwert mit dem Fahrrad fahren können, sollte Normalität sein!
+
+Wir sind eine Gruppe Alltagsradlende aus Völs in Tirol. Wir treffen uns regelmäßig um bessere Bedingungen für Radfahrende zu fordern.
 ---
 _discoverable: yes
 ---
@@ -17,18 +20,18 @@ schedule:
 #### event ####
 title: Stammtisch
 ----
-date: 2025-01-13 19:00:00 Europe/Vienna
+date: 2025-03-18 19:00:00 Europe/Vienna
 ----
 location: Terra Mia Völs
 ----
 text: mit special guest
 #### event ####
-title: Radldemo
+title: Critical Mass
 ----
-date: 2025-01-30 17:00:00 Europe/Vienna
+date: 2025-03-28 17:00:00 Europe/Vienna
 ----
 location: Innsbruck
 ----
-text: Critical Mass Annasäule
+text: Treffpunkt Annasäule
 ---
 image: radldemovoels.jpg

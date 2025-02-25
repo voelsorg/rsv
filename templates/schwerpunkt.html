@@ -2,7 +2,7 @@
 {% from "macros/teaser.html" import render_teaser %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-<div class="col mb-3">
+<div class="col mb-5">
   <p class="lead">Schwerpunkt &mdash; {{ this.state }}</p>
   <h1>{{ this.title }}</h1>
   <div class="col">
@@ -23,30 +23,58 @@
     </div>
   </div>
 </div>
-<div class="col mb-3">
+<div class="col mb-5">
   {{ this.body }}
 </div>
-<div class="col mb-3">
+{% if this.downloads %}
+<div class="col mb-5">
   <h2>Downloads</h2>
   <div class="list-group">
-    {% for download in this.attachments.documents %}
-    <a href="{{ download|url }} " class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
-        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
-      </svg>
-      <div class="d-flex gap-2 w-100 justify-content-between">
-        <div>
-          <h6 class="mb-0">{{ download.attachment_filename.split('/')[-1] }}</h6>
-          <p class="mb-0 opacity-75">{{ download.attachment_filename.split('/')[-1] }}</p>
-        </div>
-        <!-- <small class="opacity-50 text-nowrap">now</small> -->
-      </div>
-    </a>
+    {% for blk in this.downloads.blocks %}
+      {{ blk }}
     {% endfor %}
   </div>
 </div>
-<div class="col mb-3">
+{% endif %}
+{% set ns = namespace(filenames=[]) %}
+{% for filepath in this.attachments.images | map(attribute="attachment_filename") %}
+  {% set ns.filenames = ns.filenames + [filepath.split('/')[-1]] %}
+{% endfor %}
+{% if ns.filenames | reject("eq", this.image) %}
+<div class="col mb-5">
   <h2>Album</h2>
+  <div class="album mt-3 mb-5">
+    <div class="container ps-0 pe-0">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
+        {% for image in this.attachments.images if image.attachment_filename.split('/')[-1] != this.image %}
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="#albumimage-{{ image.attachment_filename.split('/')[-1] }}" data-bs-toggle="modal">
+              <img class="card-img-top" width="100%"
+                  src="{{ image.thumbnail(1300, 1300)|url }}"
+                  alt="" loading="lazy" />
+            </a>
+          </div>
+        </div>
+        <div class="modal" tabindex="-1" id="albumimage-{{ image.attachment_filename.split('/')[-1] }}">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content"></div>
+              <div class="modal-header">
+                <h5 class="modal-title">{{ image.attachment_filename.split('/')[-1] }}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
+              </div>
+              <div class="modal-body"></div>
+                <img class="card-img-top" width="100%"
+                      src="{{ image|url }}"
+                      alt="" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
-  {% endblock %}
+{% endif %}
+{% endblock %}
