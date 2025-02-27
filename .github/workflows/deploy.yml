@@ -44,9 +44,10 @@ jobs:
       - name: Build Lektor website
         run: uvx lektor build -O '${{ env.OUTPUT }}'
 
-      - name: Deploy lektor website
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         if: env.DEPLOY == 'true'
-        run: uvx lektor deploy -O '${{ env.OUTPUT }}' ghpages-https
-        env:
-          LEKTOR_DEPLOY_USERNAME: lektor
-          LEKTOR_DEPLOY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: ${{ env.OUTPUT }} # The folder the action should deploy.
+          # You can specify additional configuration here as needed.
