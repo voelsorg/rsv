@@ -1,0 +1,60 @@
+name: "Deploy site"
+
+on:
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+    # Allow manually running workflow
+
+env:
+  DEPLOY: >-
+    ${{
+    github.event_name != 'pull_request'
+    &&
+    github.ref == 'refs/heads/main'
+    }}
+  OUTPUT: _html
+
+jobs:
+  build:
+    name: Build lektor website
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+
+      - name: Install Imagemagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      - name: Build Lektor website
+        run: uvx lektor build -O '${{ env.OUTPUT }}'
+
+      - name: Check for broken internal links
+        uses: wjdp/htmltest-action@main
+        with:
+          path: ${{ env.OUTPUT }}
+          config: .htmltest.yml
+          skip_external: true
+          log_level: 1
+
+      - name: Deploy lektor website
+        if: env.DEPLOY == 'true'
+        run: uvx lektor deploy -O '${{ env.OUTPUT }}' ghpages-https
+        env:
+          LEKTOR_DEPLOY_USERNAME: lektor
+          LEKTOR_DEPLOY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
