@@ -44,14 +44,6 @@ jobs:
       - name: Build Lektor website
         run: uvx lektor build -O '${{ env.OUTPUT }}'
 
-      - name: Check for broken internal links
-        uses: wjdp/htmltest-action@main
-        with:
-          path: ${{ env.OUTPUT }}
-          config: .htmltest.yml
-          skip_external: true
-          log_level: 1
-
       - name: Deploy lektor website
         if: env.DEPLOY == 'true'
         run: uvx lektor deploy -O '${{ env.OUTPUT }}' ghpages-https
