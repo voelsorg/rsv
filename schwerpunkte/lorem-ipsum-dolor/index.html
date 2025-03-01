@@ -5,6 +5,27 @@
   <link rel="stylesheet" href="../../static/styles.css" />
   <title>Lorem Ipsum Dolor — Radstammtisch Völs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="../../static/bootstrap.bundle.min.js"></script>
+  
+<script src="../../static/index.bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const options = {
+	  keyboard: true,
+	  size: 'fullscreen'
+  };
+
+  document.querySelectorAll('.rsv-lightbox').forEach((el) => el.addEventListener('click', (e) => {
+    e.preventDefault();
+    const lightbox = new Lightbox(el, options);
+    lightbox.show();
+  }));
+
+});
+</script>
+
+
 </head>
 <body>
   <div class="container">
@@ -115,62 +136,22 @@
 
 <div class="col mb-5">
   <h2>Album</h2>
-  <div class="album mt-3 mb-5">
-    <div class="container ps-0 pe-0">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-kinglui.png" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="kinglui@1300x1300.png"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-kinglui.png">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">kinglui.png</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="kinglui.png"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-assets.newatlas.com.jpeg" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="assets.newatlas.com@1300x1300.jpeg"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-assets.newatlas.com.jpeg">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">assets.newatlas.com.jpeg</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="assets.newatlas.com.jpeg"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
+  <div class="row">
+    
+    <div class="col-sm-4" >
+      <img src="kinglui@1200x1200.png"
+           data-src="kinglui.png"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
     </div>
+    
+    <div class="col-sm-4" >
+      <img src="assets.newatlas.com@1200x1200.jpeg"
+           data-src="assets.newatlas.com.jpeg"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
+    </div>
+    
   </div>
 </div>
 
@@ -186,6 +167,5 @@
       </div>
     </footer>
   </div>
-  <script async src="../../static/bootstrap.min.js"></script>
 </body>
 </html>

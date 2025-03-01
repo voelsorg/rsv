@@ -5,6 +5,27 @@
   <link rel="stylesheet" href="../../static/styles.css" />
   <title>Ständer — Radstammtisch Völs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="../../static/bootstrap.bundle.min.js"></script>
+  
+<script src="../../static/index.bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const options = {
+	  keyboard: true,
+	  size: 'fullscreen'
+  };
+
+  document.querySelectorAll('.rsv-lightbox').forEach((el) => el.addEventListener('click', (e) => {
+    e.preventDefault();
+    const lightbox = new Lightbox(el, options);
+    lightbox.show();
+  }));
+
+});
+</script>
+
+
 </head>
 <body>
   <div class="container">
@@ -152,137 +173,43 @@
 
 <div class="col mb-5">
   <h2>Album</h2>
-  <div class="album mt-3 mb-5">
-    <div class="container ps-0 pe-0">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-allebekloppt-ruthe.jpg" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="allebekloppt-ruthe@1300x1300.jpg"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-allebekloppt-ruthe.jpg">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">allebekloppt-ruthe.jpg</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="allebekloppt-ruthe.jpg"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-91gdsii0ukl.jpg" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="91gdsii0ukl@1300x1300.jpg"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-91gdsii0ukl.jpg">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">91gdsii0ukl.jpg</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="91gdsii0ukl.jpg"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-aliensnachts.jpeg" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="aliensnachts@1300x1300.jpeg"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-aliensnachts.jpeg">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">aliensnachts.jpeg</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="aliensnachts.jpeg"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-74f23ecb-0001-0004-0000-000001279606-w1200-r1.33_fpx50_fpy41.34.jpg" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="74f23ecb-0001-0004-0000-000001279606-w1200-r1.33_fpx50_fpy41.34@1300x1300.jpg"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-74f23ecb-0001-0004-0000-000001279606-w1200-r1.33_fpx50_fpy41.34.jpg">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">74f23ecb-0001-0004-0000-000001279606-w1200-r1.33_fpx50_fpy41.34.jpg</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="74f23ecb-0001-0004-0000-000001279606-w1200-r1.33_fpx50_fpy41.34.jpg"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-affe.jpg" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="affe@1300x1300.jpg"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-affe.jpg">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">affe.jpg</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="affe.jpg"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
+  <div class="row">
+    
+    <div class="col-sm-4" >
+      <img src="allebekloppt-ruthe@1200x1200.jpg"
+           data-src="allebekloppt-ruthe.jpg"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
     </div>
+    
+    <div class="col-sm-4" >
+      <img src="91gdsii0ukl@1200x1200.jpg"
+           data-src="91gdsii0ukl.jpg"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
+    </div>
+    
+    <div class="col-sm-4" >
+      <img src="aliensnachts@1200x1200.jpeg"
+           data-src="aliensnachts.jpeg"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
+    </div>
+    
+    <div class="col-sm-4" >
+      <img src="74f23ecb-0001-0004-0000-000001279606-w1200-r1.33_fpx50_fpy41.34@1200x1200.jpg"
+           data-src="74f23ecb-0001-0004-0000-000001279606-w1200-r1.33_fpx50_fpy41.34.jpg"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
+    </div>
+    
+    <div class="col-sm-4" >
+      <img src="affe@1200x1200.jpg"
+           data-src="affe.jpg"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
+    </div>
+    
   </div>
 </div>
 
@@ -298,6 +225,5 @@
       </div>
     </footer>
   </div>
-  <script async src="../../static/bootstrap.min.js"></script>
 </body>
 </html>
