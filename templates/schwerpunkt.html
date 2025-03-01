@@ -1,6 +1,25 @@
 {% extends "layout.html" %}
 {% from "macros/teaser.html" import render_teaser %}
 {% block title %}{{ this.title }}{% endblock %}
+{% block scripts %}
+<script src="{{ '/static/index.bundle.min.js'|url }}"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const options = {
+	  keyboard: true,
+	  size: 'fullscreen'
+  };
+
+  document.querySelectorAll('.rsv-lightbox').forEach((el) => el.addEventListener('click', (e) => {
+    e.preventDefault();
+    const lightbox = new Lightbox(el, options);
+    lightbox.show();
+  }));
+
+});
+</script>
+{% endblock %}
 {% block body %}
 <div class="col mb-5">
   <p class="lead">Schwerpunkt &mdash; {{ this.state }}</p>
@@ -43,37 +62,15 @@
 {% if ns.filenames | reject("eq", this.image) %}
 <div class="col mb-5">
   <h2>Album</h2>
-  <div class="album mt-3 mb-5">
-    <div class="container ps-0 pe-0">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
-        {% for image in this.attachments.images if image.attachment_filename.split('/')[-1] != this.image %}
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#albumimage-{{ image.attachment_filename.split('/')[-1] }}" data-bs-toggle="modal">
-              <img class="card-img-top" width="100%"
-                  src="{{ image.thumbnail(1300, 1300)|url }}"
-                  alt="" loading="lazy" />
-            </a>
-          </div>
-        </div>
-        <div class="modal" tabindex="-1" id="albumimage-{{ image.attachment_filename.split('/')[-1] }}">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content"></div>
-              <div class="modal-header">
-                <h5 class="modal-title">{{ image.attachment_filename.split('/')[-1] }}</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
-              </div>
-              <div class="modal-body"></div>
-                <img class="card-img-top" width="100%"
-                      src="{{ image|url }}"
-                      alt="" loading="lazy" />
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
+  <div class="row">
+    {% for image in this.attachments.images if image.attachment_filename.split('/')[-1] != this.image %}
+    <div class="col-sm-4" >
+      <img src="{{ image.thumbnail(1200, 1200)|url }}"
+           data-src="{{ image | url }}"
+           data-toggle="lightbox"
+           class="rsv-lightbox img-fluid">
     </div>
+    {% endfor %}
   </div>
 </div>
 {% endif %}

@@ -6,8 +6,9 @@
 
 ### Git
 
-1. Du brauchst ein Benutzer-Konto bei [GitHub].
-2. Du brauchst Schreibzugreif auf das Repository bei Github. Kontaktiere dazu @jensens.
+1. Du brauchst ein Benutzer-Konto bei [GitHub]()https://github.com/signup.
+2. Du brauchst Schreibzugreif auf das Repository bei Github.
+   Kontaktiere dazu Jens per E-Mail oder in unserer Signal-Gruppe.
 3. Du musst bei Dir am Computer [git installieren](https://docs.github.com/de/get-started/getting-started-with-git/set-up-git)
    Entweder direkt das Kommandozeilen Git oder ein Programm, welches eine grafische Oberflaeche dafuer zur Verfuegung stellt und die Bedienung damit vereinfacht.
    Ich empfehle Anfaengern solch ein Programm zu verwenden.
@@ -27,7 +28,7 @@ Die Hauptkopie der Webseite, das Repository, liegt auf Github.
 Wenn jemand anders am Github Aenderungen (neue Versionen) gemacht hat und man die in seiner lokale Arbeitskopie haben will, muss man diese herunterladen.
 Da man aber schon einen Klon hat, muss man hier nur die Aenderungen ziehen (pull).
 
-Wenn man Pech hat, hat man selber und jemand anders an der selben Datei gebarbeitet und bei Textdateie an den selben Zeilen.
+Wenn man Pech hat, hat man selber und jemand anders an der selben Datei gearbeitet bzw. bei Textdateien an den selben Zeilen.
 Dann kann es einen Konflikt geben (merge conflict). Dieser muss erst aufgeloest werden, dann kann man weiterarbeiten.
 
 ### Arbeiten mit dem Repository
@@ -38,7 +39,7 @@ Hier gibt es zwei Varianten das ueber die Kommandozeile zu loesen.
 
 Gehe dazu erst in den Ordner, in den Du das Repository klonen willst. z.B.
 ```bash
-cd Documents
+cd ~/Documents
 ```
 
 1. per HTTP (empfohlen)

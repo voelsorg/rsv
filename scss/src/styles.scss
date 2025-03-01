@@ -12,14 +12,13 @@
 
 //
 // Bring in Bootstrap
-//
-
-// Option 1
-//
 // use all of Bootstrap's CSS
 
 @use "bootstrap/scss/bootstrap";
 
+// Bring in Lightgallery
+// https://www.lightgalleryjs.com/docs/getting-started/
+@use "lightgallery/scss/lightgallery";
 
 //
 // Custom styles
