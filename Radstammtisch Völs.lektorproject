@@ -1,8 +1,12 @@
 [project]
 name = Radstammtisch Völs
 locale = de
+url = https://preview.radstammtisch.voels.org
 
 [attachment_types]
 ; <.file-ext> = <type>
 .zip = document
 .pdf = document
+
+[packages]
+lektor-atom = 0.4.0
