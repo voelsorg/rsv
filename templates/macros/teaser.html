@@ -1,7 +1,7 @@
 {% macro render_teaser(article, variant="", image_ratio=1) %}
 
 <div class="col">
-  <div class="card shadow-sm">
+  <div class="card">
     <a href="{{ article|url }}" class="text-decoration-none text-reset">
       {% if article.attachments.images %}
       <img class="card-img-top" width="100%"

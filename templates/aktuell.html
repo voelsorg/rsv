@@ -5,7 +5,7 @@
   <h1>{{ this.title }}</h1>
   <p class="lead">{{ this .teaser }}</p>
   {% if this.attachments.images %}
-  <img class="mb-3" src="{{ this.attachments.images.first()|url }}" width="100%" loading="lazy" />
+  <img class="mb-3 rounded" src="{{ this.attachments.images.first()|url }}" width="100%" loading="lazy" />
   {% endif %}
   {{ this.body }}
 {% endblock %}

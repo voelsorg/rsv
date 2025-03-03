@@ -110,9 +110,13 @@ body {
   --bs-link-hover-color-rgb: 10, 88, 202;
   --bs-primary: var(--rsv-lila);
   --bs-primary-rgb: var(--rsv-lila-rgb);
-  --bs-secondary: var(--rsv-gelb);
+  --bs-secondary-color: var(--rsv-gelb);
   --bs-secondary-rgb: var(--rsv-gelb-rgb);
 
+  .text-secondary,
+  .text-body-secondary {
+    filter: brightness(65%);
+  }
 
   // Buttons
   .btn {

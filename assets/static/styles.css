@@ -12618,7 +12618,7 @@ body {
   --bs-link-hover-color-rgb: 10, 88, 202;
   --bs-primary: var(--rsv-lila);
   --bs-primary-rgb: var(--rsv-lila-rgb);
-  --bs-secondary: var(--rsv-gelb);
+  --bs-secondary-color: var(--rsv-gelb);
   --bs-secondary-rgb: var(--rsv-gelb-rgb);
 }
 @media (min-width: 768px) {
@@ -12630,6 +12630,10 @@ body {
   body {
     padding: 1rem;
   }
+}
+body .text-secondary,
+body .text-body-secondary {
+  filter: brightness(65%);
 }
 body .btn.btn-primary {
   --bs-btn-bg: var(--rsv-lila);

@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
       <div class="col">
         {% if this.attachments.images %}
-        <img src="{{ this.attachments.images.first()|url }}" width="100%" loading="lazy" />
+        <img src="{{ this.attachments.images.first()|url }}" class="rounded" width="100%" loading="lazy" />
         {% endif %}
       </div>
     </div>
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
            data-src="{{ image | url(absolute=True) }}"
            data-gallery="schwerpunkt-gallery"
            data-toggle="lightbox"
-           class="rsv-lightbox img-fluid mb-5">
+           class="rsv-lightbox img-fluid mb-5 rounded">
     </div>
     {% endfor %}
   </div>
