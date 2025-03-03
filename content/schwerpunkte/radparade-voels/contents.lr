@@ -41,8 +41,32 @@ Unsere Radparade für Klein und Groß im Rahmen der Europäischen Mobilitätswoc
 facts:
 
 #### fact ####
-label: TeilnehmerInnen
+label: Teilnehmende
 ----
-fact: 100
+fact: mehr als 150
+#### fact ####
+label: Ziel
+----
+fact: Sichere Wege fordern!
+#### fact ####
+label: mitgeholfen haben
+----
+fact:
+
+Kulturkreis Völs, Jungschar Völs, Pfadfinder*innen Völs, Zupfkapelle. 
+#### fact ####
+label:
+
+Gast vom Land Tirol 
+----
+fact: LR Rene Zumtobel
+#### fact ####
+label: Gast von der Gemeinde
+----
+fact: Bgm. Peter Lobewein
+#### fact ####
+label: Gast vom Klimabündnis Tirol
+----
+fact: GF Andrä Stigger
 ---
 image: radparade.png
