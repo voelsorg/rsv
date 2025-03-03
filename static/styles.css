@@ -12605,11 +12605,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 :root {
   --rsv-gelb: #e3dc1e;
+  --rsv-gelb-rgb: 227, 220, 30;
   --rsv-lila: #9962eb;
+  --rsv-lila-rgb: 152, 97, 235;
 }
 
 body {
   padding: 0.5rem;
+  --bs-link-color: var(--rsv-lila);
+  --bs-link-color-rgb: var(--rsv-lila-rgb);
+  --bs-link-hover-color: #0a58ca;
+  --bs-link-hover-color-rgb: 10, 88, 202;
+  --bs-primary: var(--rsv-lila);
+  --bs-primary-rgb: var(--rsv-lila-rgb);
 }
 @media (min-width: 768px) {
   body {
@@ -12666,6 +12674,18 @@ body nav.bg-body-tertiary {
 body nav.bg-body-tertiary .navbar-nav {
   --bs-nav-link-color: var(--rsv-gelb);
   --bs-navbar-active-color: var(--bs-white);
+  --bs-nav-link-font-weight: 600;
+}
+body nav.bg-body-tertiary #navbarSupportedContent {
+  color: var(--rsv-gelb);
+}
+body nav.bg-body-tertiary .navbar-brand img {
+  width: 150px;
+}
+@media (min-width: 992px) {
+  body nav.bg-body-tertiary .navbar-brand img {
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
