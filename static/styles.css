@@ -12631,6 +12631,11 @@ body {
     padding: 1rem;
   }
 }
+body .card {
+  --bs-card-border-color: var(--rsv-gelb);
+  --bs-card-border-rgb: var(--rsv-gelb-rgb);
+  --bs-card-border-color-translucent: var(--rsv-gelb);
+}
 body .text-secondary,
 body .text-body-secondary {
   filter: brightness(65%);
