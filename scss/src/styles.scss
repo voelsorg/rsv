@@ -83,11 +83,13 @@ $headings-font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", Roboto, 
 // Custom styles
 //
 $rsv-gelb: rgb(227, 220, 30) !default;
-$rsv-lila: #9962eb !default;
+$rsv-lila: rgb(152, 97, 235) !default;
 
 :root {
   --rsv-gelb: #e3dc1e;
+  --rsv-gelb-rgb: 227, 220, 30;
   --rsv-lila: #9962eb;
+  --rsv-lila-rgb: 152, 97, 235;
 }
 
 body {
@@ -101,6 +103,14 @@ body {
   @include media-breakpoint-up(lg) {
     padding: 1rem;
   }
+
+  --bs-link-color: var(--rsv-lila);
+  --bs-link-color-rgb: var(--rsv-lila-rgb);
+  --bs-link-hover-color: #0a58ca;
+  --bs-link-hover-color-rgb: 10, 88, 202;
+  --bs-primary: var(--rsv-lila);
+  --bs-primary-rgb: var(--rsv-lila-rgb);
+
 
   // Buttons
   .btn {
@@ -155,6 +165,18 @@ body {
       .navbar-nav {
         --bs-nav-link-color: var(--rsv-gelb);
         --bs-navbar-active-color: var(--bs-white);
+        --bs-nav-link-font-weight: 600;
+      }
+      #navbarSupportedContent {
+        color: var(--rsv-gelb);
+      }
+      .navbar-brand {
+        img {
+          width: 150px;
+          @include media-breakpoint-up(lg) {
+            width: 300px;
+          }
+        }
       }
     }
   }
