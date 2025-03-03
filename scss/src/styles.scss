@@ -113,6 +113,11 @@ body {
   --bs-secondary-color: var(--rsv-gelb);
   --bs-secondary-rgb: var(--rsv-gelb-rgb);
 
+  .card {
+    --bs-card-border-color: var(--rsv-gelb);
+    --bs-card-border-rgb: var(--rsv-gelb-rgb);
+    --bs-card-border-color-translucent: var(--rsv-gelb);
+  }
   .text-secondary,
   .text-body-secondary {
     filter: brightness(65%);
