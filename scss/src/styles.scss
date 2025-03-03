@@ -82,7 +82,52 @@ $headings-font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", Roboto, 
 //
 // Custom styles
 //
+$rsv-gelb: rgb(227, 220, 30) !default;
+$rsv-lila: #9962eb !default;
+
+:root {
+  --rsv-gelb: #e3dc1e;
+  --rsv-lila: #9962eb;
+}
 
 body {
-  padding: 1.5rem;
+
+  // more padding
+  padding: 0.5rem;
+
+  @include media-breakpoint-up(md) {
+    padding: 1.5rem;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 1rem;
+  }
+
+  .text-bg-rsv-gelb {
+    color: color-contrast($rsv-gelb);
+    background-color: var(--rsv-gelb);
+  }
+
+  .rsv-event {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  // nav specials
+  nav {
+    &.bg-body-tertiary {
+      background-color: var(--rsv-lila) !important;
+      --bs-nav-link-color: var(--rsv-gelb);
+      --bs-link-color-rgb: var(--rsv-gelb);
+      --bs-link-opacity: 1;
+      --bs-nav-link-font-size: 1.25rem;
+      --bs-navbar-toggler-border-color: var(--rsv-gelb);
+      --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28227, 220, 30, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      .navbar-nav {
+        --bs-nav-link-color: var(--rsv-gelb);
+        --bs-navbar-active-color: var(--bs-white);
+      }
+    }
+  }
 }
+
+

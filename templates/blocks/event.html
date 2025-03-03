@@ -1,15 +1,15 @@
 {% set weekdays = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"] %}
-{% set months = ("Jän", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez") %}
+{% set months = ("Jän", "Feb", "März", "Apr", "Mai", "Juni", "Juli", "Aug", "Sep", "Okt", "Nov", "Dez") %}
 
-<div class="row align-items-start justify-content-center mt-3" >
+<div class="row align-items-start justify-content-center mt-3 rsv-event" >
   <div class="col-2 col-lg-1 justify-content-right h-auto">
       <div class="row h-auto align-items-start">
-      <div class="col-12 fs-4 badge text-bg-secondary pt-4 pb-4">{{ this.date.strftime("%d") }}</div>
-      <div class="col-12 fs-2 pb-auto">{{ months[this.date.month-1] }}</div>
+      <div class="col-12 fs-4 badge text-bg-rsv-gelb text-center ps-0 pe-0 pt-4 pb-4">{{ this.date.strftime("%d") }}</div>
+      <div class="col-12 fs-2 ps-0 pe-0 pb-3 text-center">{{ months[this.date.month-1] }}</div>
       </div>
   </div>
   <div class="col-10 col-lg-8">
-      <p class="fs-4 mb-1"><strong>{{ this.title }}</strong></p>
+      <h2 class="fs-4 mb-1">{{ this.title }}</h1>
       <ul class="list-inline">
         <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
           <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
