@@ -12621,6 +12621,31 @@ body {
     padding: 1rem;
   }
 }
+body .btn.btn-primary {
+  --bs-btn-bg: var(--rsv-lila);
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-border-color: var(--rsv-lila);
+  --bs-btn-active-bg: var(--rsv-gelb);
+  --bs-btn-active-color: var(--bs-black);
+  --bs-btn-active-border-color: var(--rsv-gelb);
+  --bs-btn-hover-bg: var(--rsv-gelb);
+  --bs-btn-hover-color: var(--bs-black);
+  --bs-btn-hover-border-color: var(--rsv-gelb);
+}
+body .btn.btn-secondary {
+  --bs-btn-bg: var(--rsv-gelb);
+  --bs-btn-color: var(--bs-black);
+  --bs-btn-border-color: var(--rsv-gelb);
+  --bs-btn-active-bg: var(--rsv-lila);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-border-color: var(--rsv-lila);
+  --bs-btn-hover-bg: var(--rsv-lila);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-border-color: var(--rsv-lila);
+}
+body .card-title {
+  font-weight: bold;
+}
 body .text-bg-rsv-gelb {
   color: #000;
   background-color: var(--rsv-gelb);

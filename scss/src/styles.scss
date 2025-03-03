@@ -102,6 +102,36 @@ body {
     padding: 1rem;
   }
 
+  // Buttons
+  .btn {
+    &.btn-primary {
+      --bs-btn-bg: var(--rsv-lila);
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-border-color: var(--rsv-lila);
+      --bs-btn-active-bg: var(--rsv-gelb);
+      --bs-btn-active-color: var(--bs-black);
+      --bs-btn-active-border-color: var(--rsv-gelb);
+      --bs-btn-hover-bg: var(--rsv-gelb);
+      --bs-btn-hover-color: var(--bs-black);
+      --bs-btn-hover-border-color: var(--rsv-gelb);
+    }
+    &.btn-secondary {
+      --bs-btn-bg: var(--rsv-gelb);
+      --bs-btn-color: var(--bs-black);
+      --bs-btn-border-color: var(--rsv-gelb);
+      --bs-btn-active-bg: var(--rsv-lila);
+      --bs-btn-active-color: var(--bs-white);
+      --bs-btn-active-border-color: var(--rsv-lila);
+      --bs-btn-hover-bg: var(--rsv-lila);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-border-color: var(--rsv-lila);
+    }
+  }
+
+    .card-title {
+      font-weight: bold;
+    }
+
   .text-bg-rsv-gelb {
     color: color-contrast($rsv-gelb);
     background-color: var(--rsv-gelb);
