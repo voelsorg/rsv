@@ -5,7 +5,7 @@ facts:
 #### fact ####
 label: Betrachtungen
 ----
-fact: Gemeindegebiet und Cyta Areal
+fact: Gemeindeobjekte und Cyta Areal
 #### fact ####
 label: Bewertung
 ----
@@ -29,34 +29,46 @@ Die Fahrradabstellanlagen der Gemeindeobjekte in Völs wurden im Jahr 2024 erhob
 Ziel ist ein Qualitätsbewusstsein bei den Entscheidungsträgern zu schaffen.
 
 ## Allgemeine Bewertung
+
 Die Erhebung zeigte, dass die meisten Fahrradabstellanlagen in Völs nicht den aktuellen Anforderungen entsprechen. Hauptmängel sind:
 
-- Fehlende oder mangelhafte Fahrradparkanlagen (z. B. bei der Bushaltestelle Dorfmitte komplett fehlend)
-- Vorhandene Felgenklemmen, die das sichere Absperren am Fahrradrahmen nicht ermöglichen und zu Schäden am Fahrrad führen können
-- Unzureichende Beleuchtung, die zu Unsicherheitsgefühl führt und das Bedienen des Schlosses erschwert
+- **Fehlende oder mangelhafte Fahrradparkanlagen** (z. B. bei der Bushaltestelle Dorfmitte komplett fehlend)
+- **Vorhandene Felgenklemmen**, die das sichere Absperren am Fahrradrahmen nicht ermöglichen und zu Schäden am Fahrrad führen können
+- **Unzureichende Beleuchtung**, die zu Unsicherheitsgefühl führt und das Bedienen des Schlosses erschwert
 
 ## Detailbewertungen ausgewählter Standorte der Gemeinde
 
-### 1. Gemeindeamt I und II
-- **Bestehende Anlage:** 6 Stellplätze mit Anlehnbügeln  
-- **Optimierung:** Erhöhung der Kapazität und Installation einer Überdachung  
+**1. Bushaltestelle Dorfmitte**
+- *Bestehende Anlage:* Keine  
+- *Optimierung:* Einrichtung einer Fahrradparkanlage mit Anlehnbügeln und Beleuchtung  
 
-### 2. Vereinshaus I
-- **Bestehende Anlage:** 5 Stellplätze mit Felgenklemmen  
-- **Optimierung:** Austausch gegen Anlehnbügel, Beleuchtung und Überdachung  
+** 2. Gemeindeamt I und II**
+- *Bestehende Anlage:* 6 Stellplätze mit Anlehnbügeln  
+- *Optimierung:* Erhöhung der Kapazität und Installation einer Überdachung  
 
-### 3. Volksschule + Kindergarten Dorf
-- **Bestehende Anlage:** 5 Stellplätze mit Felgenklemmen, schlechte Erreichbarkeit  
-- **Optimierung:** Anlehnbügel in ausreichender Anzahl nahe des Eingangs  
+**3. Vereinshaus I**
+- *Bestehende Anlage:* 5 Stellplätze mit Felgenklemmen  
+- *Optimierung:* Austausch gegen Anlehnbügel, Beleuchtung und Überdachung  
 
-### 4. Bushaltestelle Dorfmitte
-- **Bestehende Anlage:** Keine  
-- **Optimierung:** Einrichtung einer Fahrradparkanlage mit Anlehnbügeln und Beleuchtung  
-
-### 5. Schwimmbad "Völser Badl"
-- **Bestehende Anlage:** 60 Stellplätze mit Anlehnbügeln, wenig Platz für Sonderfahrzeuge  
-- **Optimierung:** Erhöhung der Kapazität  
+**4. Volksschule + Kindergarten Dorf**
+- *Bestehende Anlage:* 5 Stellplätze mit Felgenklemmen, schlechte Erreichbarkeit  
+- *Optimierung:* Anlehnbügel in ausreichender Anzahl nahe des Eingangs  
 
 ## Fazit
 Die Erhebung zeigt einen dringenden Verbesserungsbedarf für Fahrradabstellanlagen in Völs. Besonders an hoch frequentierten Standorten fehlt es an ausreichenden und sicheren Abstellmöglichkeiten. Die Umsetzung der vorgeschlagenen Maßnahmen würde die Fahrradfreundlichkeit der Gemeinde erheblich verbessern und zur Förderung nachhaltiger Mobilität beitragen.
 
+---
+downloads:
+
+#### download ####
+document: fahrradabstellanlagen-bewertungsgrundlagen.pdf
+----
+title: Bewertungsgrundlagen Fahrradabstellanlagen in Völs 2024
+#### download ####
+document: fahrradabstellanlagen-erhebung-gemeinde-20250221.pdf
+----
+title: Erhebung Fahrradabstellanlagen der Gemeindeobjekte in Völs 2024
+#### download ####
+document: fahrradabstellanlagen-erfassung-cyta-20250221.pdf
+----
+title: Erhebung Fahrradabstellanlagen Cyta Völs 2024

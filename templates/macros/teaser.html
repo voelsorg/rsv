@@ -3,9 +3,10 @@
 <div class="col">
   <div class="card">
     <a href="{{ article|url }}" class="text-decoration-none text-reset">
+      {{ F.alt.endswith(article.image) }}
       {% if article.attachments.images %}
       <img class="card-img-top" width="100%"
-        src="{{ article.attachments.images.first().thumbnail(1300, 1300*image_ratio, mode='crop')|url }}" alt="TODO" loading="lazy" />
+        src="{{ article.attachments.images.filter(F._id.endswith(article.image)).first().thumbnail(1300, 1300*image_ratio, mode='crop')|url }}" loading="lazy" />
       {% else %}
       <svg class="card-img-top" width="100%" xmlns="http://www.w3.org/2000/svg" style="text-anchor: middle;"
         role="img" aria-label="Platzhalter: fehlendes Bild" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -14,8 +15,6 @@
           fehlt</text>
       </svg>
       {% endif %}
-
-      <!-- Image here -->
       <div class="card-body">
         <p class="card-title">{{ article.title }}</p>
         <p class="card-text">

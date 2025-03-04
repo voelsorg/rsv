@@ -2,7 +2,28 @@ title: Geh- und Radweg: Völs - Innsbruck Kranebitten/Technik
 ---
 _discoverable: yes
 ---
-facts: 
+facts:
+
+#### fact ####
+label: Hauptstrecke
+----
+fact: Völs ↔ Kranbitten/Technik
+#### fact ####
+label: Verkehrsaufkommen
+----
+fact: Hoch
+#### fact ####
+label: Gefährliche Kreuzungen
+----
+fact: 2
+#### fact ####
+label: Unzumutbare Steigungen
+----
+fact: 3
+#### fact ####
+label: Gefährliche Kurven
+----
+fact: 1
 ---
 featured: yes
 ---
@@ -14,57 +35,56 @@ teaser: Verbesserungsbedarf und aktuelle Situation
 ---
 body:
 
-<h2>Bedeutung</h2>
+## Bedeutung
 Der Weg zwischen Völs und Innsbruck Kranebitten/Technik ist ein vielbefahrener Radweg. Er bindet die die westlichen Stadtteile von Innsbruck an: 
-<ul>
-<li>den Bahnknotenpunkt Völs</li>
-<li>Völs EKZ Cyta</li>
-<li>Völser Siedlungsgebiete südlich der Bahn</li>
-<li> Inntalradweg</li>
-</ul>
+- den Bahnknotenpunkt Völs
+- Völs EKZ Cyta
+- Völser Siedlungsgebiete südlich der Bahn
+- Inntalradweg
 
 Künftig ist eine weiter steigende Bedeutung durch geplanten neuen Stadtteil „Harterhof-Siedlung“ (zusätzlich ca. 1500 Wohnungen und ca. 700 Arbeitsplätze) zu erwarten.
 Derzeit ist die Strecke zwischen Bahnhof Völs und Innsbruck Technik ca. 2,5km lang (13min mit Fahrrad).
 
-<h2>Verbesserungsbedarf und aktuelle Situation</h2>
+## Verbesserungsbedarf und aktuelle Situation
 
 Gerade auf dieser Strecke können einige Punkte für Radfahrer*innen verbessert werden:
 
-<h3>• Entschärfung "Haarnadelkurve"</h3>
+### Entschärfung "Haarnadelkurve"
+
 Bei der Überführung über die Bundesstraße auf Höhe von Kranebitten runter auf den Radweg auf der Brücke über den Inn gibt es eine "Haarnadelkurve".
 Aktuell ist hier enge, scharfe und uneinsichtige Kurve mit starker Steigung bzw. Spitzkehre zu bewältigen.
 Diese muss unbedingt entschärft werden.
 
 <img src="radweg-voels-bhf-ibk-technik-haarnadelkurve.jpg" alt="Haarnadelkurve" title="Titel" width="100%" />
 
- 
-<h3>• Lückenschluss Beleuchtung</h3>
+###Lückenschluss Beleuchtung
+
 Zwischen dem Abschnitt "Haarnadelkurve" bis zur Innbrücke fehlt die Beleuchtung.
 
-<h3>• Entschärfung Kreuzungsbereich</h3>
+###Entschärfung Kreuzungsbereich
+
 Zufahrt Bauhaus-Unterführung
-aktuell: gefährlicher Kreuzungsbereich mit schlechter Sicht für Rad und Auto
-v.a. von Bauhaus kommend und Nachrang für Radfahrer
-starke Steigungen
 
-<h3>• Verbesserung Verknüpfung mit anderen Verkehrsmitteln</h3>
+- aktuell: gefährlicher Kreuzungsbereich mit schlechter Sicht für Rad und Auto
+- vor allem von Bauhaus kommend und Nachrang für Radfahrer starke Steigungen
+
+### Verbesserung Verknüpfung mit anderen Verkehrsmitteln
 Bahnhof Völs: 
-<ul>
-<li>Schaffung ausreichender Abstellplätze - auch auf der Nordseite</li>
-<li>Schaffung IVB-Stadtrad-Stationen bei Bahnhof Völs und Cyta</li>
-</ul>
+- Schaffung ausreichender Abstellplätze - auch auf der Nordseite
+- Schaffung IVB-Stadtrad-Stationen bei Bahnhof Völs und Cyta
 
-<h3>• Direkte Anbindung Völs Seesiedlung</h3>
+### Direkte Anbindung Völs Seesiedlung
+
 Radunterführung Bahnhof
 <img src="radweg-voels-bhf-ibk-technik-radunterfuehrung-bhf.jpg " alt="Radunterführung" title="Titel" width="100%" />
 
-<h3>• Wie wird der Radverkehr in der blau markierten Fläche geführt?</h3>
+### Wie wird der Radverkehr in der blau markierten Fläche geführt?
 <img src="radweg-voels-bhf-ibk-technik-blau.jpg" alt="" title="" width="50%" />
 
-Warum sind die Brücken über Inn und Autobahn ohne Radweg geplant?
-Bleibt die gefährliche „Haarnadelkurve“? 
-Sind tatsächlich Eisenbahnkreuzungen Regiobahn / Rad-und Fußweg geplant?
-Wird die Lücke der Beleuchtung des Rad-/Fußwegs über die Innbrücke geschlossen?
+- Warum sind die Brücken über Inn und Autobahn ohne Radweg geplant?
+- Bleibt die gefährliche „Haarnadelkurve“? 
+- Sind tatsächlich Eisenbahnkreuzungen Regiobahn / Rad-und Fußweg geplant?
+- Wird die Lücke der Beleuchtung des Rad-/Fußwegs über die Innbrücke geschlossen?
 
 ---
 image: radweg-voels-bhf-ibk-technik.jpg
