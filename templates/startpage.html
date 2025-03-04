@@ -10,7 +10,7 @@
 
 <div class="row row-cols-1 row-cols-lg-2 flex-lg-row-reverse g-5 py-5">
   <div class="col">
-    <img src="{{ this.image|url }}" class="d-block mx-lg-auto img-fluid rounded" alt="{{ this.image_alt }}" width="100%" loading="lazy">
+    <img src="{{ this.image.thumbnail(1300, 1300)|url }}" class="d-block mx-lg-auto img-fluid rounded" alt="{{ this.image_alt }}" width="100%" loading="lazy">
   </div>
   <div class="col">
     <h1 class="display-5 fw-semibold text-body-emphasis lh-1 mb-3">{{ this.title }}</h1>
