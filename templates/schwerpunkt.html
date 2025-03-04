@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </dl>
       </div>
       <div class="col">
-        {% if this.image %}
+        {% if this.attachments.images.filter(F._id.endswith(this.image)).first() %}
         <img src="{{ this.attachments.images.filter(F._id.endswith(this.image)).first()|url }}" class="rounded" width="100%" loading="lazy" />
         {% endif %}
       </div>

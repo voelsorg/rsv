@@ -3,8 +3,7 @@
 <div class="col">
   <div class="card">
     <a href="{{ article|url }}" class="text-decoration-none text-reset">
-      {{ F.alt.endswith(article.image) }}
-      {% if article.attachments.images %}
+      {% if article.attachments.images.filter(F._id.endswith(article.image)).first() %}
       <img class="card-img-top" width="100%"
         src="{{ article.attachments.images.filter(F._id.endswith(article.image)).first().thumbnail(1300, 1300*image_ratio, mode='crop')|url }}" loading="lazy" />
       {% else %}

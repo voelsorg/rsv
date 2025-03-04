@@ -4,8 +4,8 @@
 {% block body %}
   <h1>{{ this.title }}</h1>
   <p class="lead">{{ this .teaser }}</p>
-  {% if this.attachments.images %}
-  <img class="mb-3 rounded" src="{{ this.attachments.images.first().thumbnail(1300, 1300)|url }}" width="100%" loading="lazy" />
+  {% if this.attachments.images.filter(F._id.endswith(this.image)).first() %}
+  <img class="mb-3 rounded" src="{{ this.attachments.images.filter(F._id.endswith(this.image)).first()|url }}" width="100%" loading="lazy" />
   {% endif %}
   {{ this.body }}
 {% endblock %}
