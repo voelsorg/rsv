@@ -21,13 +21,13 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Stammtischxxx
+title: Stammtisch
 ----
-date: 2025-03-18 19:00:00 Europe/Vienna
+date: 2025-03-18 19:30:00 Europe/Vienna
 ----
 location: Terra Mia Völs
 ----
-text: mit special guest
+text: Innsbrucker Str. 4, 6176 Völs - Wir freuen uns auf euch!
 #### event ####
 title: Critical Mass
 ----
@@ -35,6 +35,17 @@ date: 2025-03-28 17:00:00 Europe/Vienna
 ----
 location: Innsbruck
 ----
-text: Treffpunkt Annasäule
+text: Treffpunkt Annasäule (Infos: https://www.instagram.com/criticalmassibk/)
+#### event ####
+title: Völser Radl-Börse
+----
+date: 2025-04-06 08:00:00 Europe/Vienna
+----
+location: Cyta-Gelände, Völs
+----
+text:
+
+Gebrauchte Räder kaufen und verkaufen - Annahme ab 8 Uhr, Verkauf 10-12 Uhr
+(Infos: https://radlboerse.voels.org/)
 ---
 image: radldemovoels.jpg
