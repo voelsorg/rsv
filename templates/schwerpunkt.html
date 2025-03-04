@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
       <div class="col">
         {% if this.attachments.images %}
-        <img src="{{ this.attachments.images.first().thumbnail(1300, 1300)|url }}" class="rounded" width="100%" loading="lazy" />
+        <img src="{{ this.image|url }}" class="rounded" width="100%" loading="lazy" />
         {% endif %}
       </div>
     </div>
