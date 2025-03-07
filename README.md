@@ -4,7 +4,7 @@
 - Du musst [uv](https://docs.astral.sh/uv/) installiert haben und das Git-Repository unter https://github.com/voelsorg/rsv geklont haben.
 - Dann gehe in die Kommandozeile in den geklonten Ordner.
 - Rufe dort `uvx lektor server` auf und gehe auf [http://127.0.0.1:5000/](http://127.0.0.1:5000/) um die Seite zu bearbeiten.
-- Wenn fertige commit und push Deine Änderungen wieder auf Github.
+- Wenn fertig, dann commit und push Deine Änderungen wieder auf Github.
 - Dort übernimmt eine Action den Bau und die Publikation der Webseite.
 
 ## Grundsaetzliche Vorbereitungen
