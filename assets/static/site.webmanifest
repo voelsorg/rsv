@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Radstammtisch Völs",
+  "short_name": "Radstammtisch",
   "icons": [
     {
       "src": "/static/web-app-manifest-192x192.png",
