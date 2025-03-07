@@ -2,7 +2,12 @@
 
 ## Grundsaetzliche Vorbereitungen
 
-**TL;DR** Du musst [uv](https://docs.astral.sh/uv/) installiert haben und das Git-Repository unter https://github.com/voelsorg/rsv geklont haben. Dann gehe in die Kommandozeile in den geklonten Ordner.
+**TL;DR**
+- Du musst [uv](https://docs.astral.sh/uv/) installiert haben und das Git-Repository unter https://github.com/voelsorg/rsv geklont haben.
+- Dann gehe in die Kommandozeile in den geklonten Ordner.
+- Rufe dort `uvx lektor server` auf und gehe auf [http://127.0.0.1:5000/](http://127.0.0.1:5000/) um die Seite zu bearbeiten.
+- Wenn fertige commit und push Deine Änderungen wieder auf Github.
+- Dort übernimmt eine Action den Bau und die Publikation der Webseite.
 
 ### Git - Eine Einführung für Anfänger
 
@@ -92,16 +97,21 @@ Inhalte werden über eine benutzerfreundliche Web-Oberfläche verwaltet, währen
 Um die Bearbeitung zu starten, verwende folgenden Befehl:
 
 ```bash
-uvx lektor serve
+uvx lektor server
 ```
 
 Dann öffne im Browser die folgende Adresse:
 
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-Zunächst siehst du die Webseite deiner lokalen Arbeitskopie. Klicke oben rechts auf das Stift-Symbol, um in den Bearbeitungsmodus zu wechseln.
+Zunächst siehst du die Webseite deiner lokalen Arbeitskopie.
+Klicke oben rechts auf das Stift-Symbol, um in den Bearbeitungsmodus zu wechseln.
+Dadurch öffnet sich die Lektor Admin UI, eine webbasierte Oberfläche, in der du Inhalte bearbeiten kannst, ohne direkt mit dem Code arbeiten zu müssen.
 
+In der Admin UI kannst du durch die Seitenstruktur navigieren, neue Seiten hinzufügen oder bestehende Inhalte bearbeiten.
+Änderungen werden nicht automatisch zwischengespeichert, vergiß nicht auf "Save" klicken.
 
+Sobald du fertig bist, kannst du die Änderungen mit den Git-Befehlen oder einer grafischen Oberfläche in das Repository hochladen.
 
 ### Änderungen an GitHub zurücksenden
 
