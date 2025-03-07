@@ -66,12 +66,15 @@ document.addEventListener("DOMContentLoaded", function() {
   <h2>Album</h2>
   <div class="row">
     {% for image in this.attachments.images if image.attachment_filename.split('/')[-1] != this.image %}
-    <div class="col-sm-4" style="cursor:pointer">
-      <img src="{{ image.thumbnail(1200, 1200)|url }}"
-           data-src="{{ image | url(absolute=True) }}"
-           data-gallery="schwerpunkt-gallery"
-           data-toggle="lightbox"
-           class="rsv-lightbox img-fluid mb-5 rounded">
+    <div class="col-sm-4 justify-content-center align-items-center" style="cursor:pointer">
+      <div class="ratio ratio-1x1 mb-3 rounded bg-dark">
+        <img src="{{ image.thumbnail(1200, 1200)|url }}"
+             data-src="{{ image | url(absolute=True) }}"
+             data-gallery="schwerpunkt-gallery"
+             data-toggle="lightbox"
+             class="rsv-lightbox img-fluid px-2 py-2"
+             style="object-fit: contain">
+      </div>
     </div>
     {% endfor %}
   </div>
