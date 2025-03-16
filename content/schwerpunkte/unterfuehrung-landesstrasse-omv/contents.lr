@@ -1,10 +1,25 @@
 title: Unterführung Landesstraße (OMV)
 ---
-body: asf
+body:
+
+Die Situation bei der Unterführung auf der Landesstraße für Radfahrende ist nicht zufriedenstellend. 
+
+Radfahrer*innen müssen sich entweder für das Radeln auf der Landesstraße entscheiden, wo es oft zu riskanten Überholmanövern der Autos kommt 
+
+oder
+
+man radelt auf dem schmalen und noch dazu uneinsichtigem Fußweg und gefährdet dabei die dort Zu-Fuß-Gehenden.
+
+Wenn man von der OMV-Tankstelle in Richtung Kranebitten fahren möchte und dabei diese Gefahrenstelle vermeiden will, bedeutet das einen Umweg von ca. 1 km!
+<img src="entfernung-fuer-radfahrende.jpg" alt="Entfernung für Radfahrende in Völs" title="Titel" width="100%" />
 ---
 facts:
 
 #### fact ####
-label: as
+label: 
 ----
-fact: asf
+fact: 
+---
+image: unterfuhrung-landesstrasse.jpg
+---
+state: laufend
