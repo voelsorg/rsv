@@ -6,13 +6,15 @@ body:
 
 ## Sichere Wege für Alle!
 
+Wir sind eine Gruppe Alltagsradelnde aus Völs in Tirol. 
+
 Wir setzen uns für Verbesserungen für Radfahrende und Zufußgehende und damit sichere Wege für ALLE ein!
 
 **Straßen und Radwege sind erst dann gut, wenn auch Kinder auf ihnen sicher radeln können!**
 Egal ob zur Schule, zu Freund:innen oder zum Hobby: Dass Kinder sicher und unbeschwert mit dem Fahrrad fahren können, sollte Normalität sein!
 
-Wir sind eine Gruppe Alltagsradelnde aus Völs in Tirol. 
-Wir treffen uns regelmäßig, um uns für bessere Bedingungen für Radfahrende einzusetzen.
+
+**Wir treffen uns regelmäßig, mach mit, red' mit.**
 ---
 _discoverable: yes
 ---
@@ -20,22 +22,6 @@ _template: startpage.html
 ---
 schedule:
 
-#### event ####
-title: Stammtisch
-----
-date: 2025-03-18 19:30:00 Europe/Vienna
-----
-location: Terra Mia Völs
-----
-text: Innsbrucker Str. 4, 6176 Völs - Wir freuen uns auf euch!
-#### event ####
-title: Critical Mass
-----
-date: 2025-03-28 17:00:00 Europe/Vienna
-----
-location: Innsbruck, Annasäule
-----
-text: Infos [Instagram](https://www.instagram.com/criticalmassibk/)
 #### event ####
 title: Völser Radl-Börse
 ----
@@ -47,5 +33,21 @@ text:
 
 Gebrauchte Räder kaufen und verkaufen - Annahme ab 8 Uhr, Verkauf 10-12 Uhr<br />
 Infos: [radlboerse.voels.org](https://radlboerse.voels.org/)
+#### event ####
+title: Stammtisch
+----
+date: 2025-04-29 19:30:00 Europe/Vienna
+----
+location: Terra Mia Völs, Innsbrucker Str. 4
+----
+text: Wir freuen uns auf euch!
+#### event ####
+title: Stammtisch
+----
+date: 2025-05-22 19:30:00 Europe/Vienna
+----
+location: Terra Mia Völs, Innsbrucker Str. 4
+----
+text: Wir freuen uns auf euch!
 ---
 image: radldemovoels.jpg
