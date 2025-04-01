@@ -6,9 +6,17 @@ image: radunterfuehrung-kranebitterstrasse3.jpeg
 ---
 body:
 
-Die Unterführung in der Kranebitterstraße ist die wesentliche Verbindung für alle aus dem Osten oder dem Dorfkern von Völs, die mit dem Rad oder zu Fuß in die Cyta wollen. Im Zuge des Umbaus des Völser Bahnhofs (geplant 2026-2029) soll die Unterführung in der Kranebitterstraße umgebaut werden.
+Die Unterführung in der Kranebitterstraße ist die wesentliche Verbindung für alle aus dem Osten oder dem Dorfkern von Völs, die mit dem Rad oder zu Fuß in die Cyta wollen. 
+
+<img src="kranebitterstr-verbindungen-q.PNG" width="100%" alt="Abbildung Verbindungen über die Kranebitterstraße Richtung Cyta, Dorfkern, Öffis und Innsbruck">
+
+Im Zuge des Umbaus des Völser Bahnhofs (geplant 2026-2029) soll die Unterführung in der Kranebitterstraße umgebaut werden.
 
 Bei der Planung muss unbedingt darauf geachtet werden, dass die Umgestaltung eine deutliche Verbesserung für Radfahrer\*innen und Fußgänger\*innen darstellt. Nicht nur direkt bei der Unterführung, sondern auch im Hinblick auf die weiteren Anschlüsse an den Inntalradweg bzw. das Cyta-Areal.
+
+Seitens der Gemeinde Völs wird eine Aufweitung der Bahn-Unterführung für 2 PKW-Fahrspuren und einen Gehsteig angestrebt. Unser Vorschlag ist ein Durchgängiger 2m breiter Gehsteig durch die gesamte Kranebitterstraße vom Cyta bis zur Bahnhofstraße mit Zebrastreifen über die Bahnhofstraße in Richtung Völser Badl, und Seestraße.
+
+<img src="kranebitterstr-querschnitt.PNG" width="100%" alt="Vorschlag zu Straßen-Querschnitt mit ca. 5m PKW Fahrbahn und 2m Gehsteig ostseitig">
 
 ---
 teaser: Im Zuge des Umbaus des Völser Bahnhofs (geplant 2026-2029) soll die Unterführung in der Kranebitterstraße umgebaut werden.
@@ -16,13 +24,13 @@ teaser: Im Zuge des Umbaus des Völser Bahnhofs (geplant 2026-2029) soll die Unt
 facts:
 
 #### fact ####
-label: Hauptweg für
+label: Hauptweg vom
 ----
-fact: von Wohngebiet zum EKZ Cyta
+fact: Wohngebiet zum EKZ Cyta
 #### fact ####
-label: für
+label: vom
 ----
-fact: von Stadtbus T zum Völser Badl
+fact: Stadtbus T zum Völser Badl
 ---
 pub_date: 2025-02-12
 ---
