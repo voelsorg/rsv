@@ -1,6 +1,6 @@
 {% macro render_teaser(article, variant="", image_ratio=1) %}
 
-<div class="col">
+<div class="col teaser">
   <a href="{{ article|url }}" class="card text-decoration-none text-reset display-block d-flex flex-column " style="height: 100%">
     {% if article.attachments.images.filter(F._id.endswith(article.image)).first() %}
     <img class="card-img-top" width="100%"

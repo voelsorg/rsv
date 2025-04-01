@@ -21,7 +21,7 @@
   <div class="col">
     <h2>Aktuelles</h2>
     <div class="album container ps-0 pe-0">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gx-3 gy-5 mb-3">
         {% for child in site.query('/aktuelles').order_by('-pub_date').limit(3) %}
           {{ render_teaser(child, variant="aktuell") }}
         {% endfor %}
@@ -36,7 +36,7 @@
   <div class="col">
     <h2>Schwerpunkte</h2>
     <div class="album container ps-0 pe-0">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gx-3 gy-5 mb-3">
         {% for child in site.query('/schwerpunkte').filter(F.featured == true).order_by('-pub_date') %}
           {{ render_teaser(child, variant="schwerpunkt") }}
         {% endfor %}
