@@ -23,17 +23,6 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Völser Radl-Börse
-----
-date: 2025-04-06 08:00:00 Europe/Vienna
-----
-location: Cyta-Gelände, Völs
-----
-text:
-
-Gebrauchte Räder kaufen und verkaufen - Annahme ab 8 Uhr, Verkauf 10-12 Uhr<br />
-Infos: [radlboerse.voels.org](https://radlboerse.voels.org/)
-#### event ####
 title: Stammtisch
 ----
 date: 2025-04-29 19:30:00 Europe/Vienna
