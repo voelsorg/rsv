@@ -2,6 +2,7 @@
 {% from "macros/teaser.html" import render_teaser %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
+  <p class="float-md-end">[{{ this.pub_date.strftime("%d.%m.%Y") }}]</p>
   <h1>{{ this.title }}</h1>
   <p class="lead">{{ this .teaser }}</p>
   {% if this.attachments.images.filter(F._id.endswith(this.image)).first() %}
