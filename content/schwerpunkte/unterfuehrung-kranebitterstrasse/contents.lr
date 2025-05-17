@@ -1,4 +1,4 @@
-title: Unterführung Kranebitterstraße
+title: Kranebitterstraße Unterführung & Gehsteig
 ---
 state: laufend
 ---
@@ -6,20 +6,31 @@ image: radunterfuehrung-kranebitterstrasse3.jpeg
 ---
 body:
 
+# Bedeutung
 Die Unterführung in der Kranebitterstraße ist die wesentliche Verbindung für alle aus dem Osten oder dem Dorfkern von Völs, die mit dem Rad oder zu Fuß in die Cyta wollen. 
 
-<img src="kranebitterstr-verbindungen-q.PNG" width="100%" alt="Abbildung Verbindungen über die Kranebitterstraße Richtung Cyta, Dorfkern, Öffis und Innsbruck">
+<img src="kranebitterstr-verbindungen-q.PNG" width="75%" alt="Abbildung Verbindungen über die Kranebitterstraße Richtung Cyta, Dorfkern, Öffis und Innsbruck">
 
+# Umbaupläne
 Im Zuge des Umbaus des Völser Bahnhofs (geplant 2026-2029) soll die Unterführung in der Kranebitterstraße umgebaut werden.
 
 Bei der Planung muss unbedingt darauf geachtet werden, dass die Umgestaltung eine deutliche Verbesserung für Radfahrer\*innen und Fußgänger\*innen darstellt. Nicht nur direkt bei der Unterführung, sondern auch im Hinblick auf die weiteren Anschlüsse an den Inntalradweg bzw. das Cyta-Areal.
 
-Seitens der Gemeinde Völs wird eine Aufweitung der Bahn-Unterführung für 2 PKW-Fahrspuren und einen Gehsteig angestrebt. Unser Vorschlag ist ein Durchgängiger 2m breiter Gehsteig durch die gesamte Kranebitterstraße vom Cyta bis zur Bahnhofstraße mit Zebrastreifen über die Bahnhofstraße in Richtung Völser Badl, und Seestraße.
+Seitens der Gemeinde Völs wird eine Aufweitung der Bahn-Unterführung für 2 PKW-Fahrspuren und einen Gehsteig angestrebt. 
 
-<img src="kranebitterstr-querschnitt.PNG" width="100%" alt="Vorschlag zu Straßen-Querschnitt mit ca. 5m PKW Fahrbahn und 2m Gehsteig ostseitig">
+# die gesamte Kraneitterstraße muss berücksichtigt werden
+Unser Vorschlag ist ein durchgängiger 2m breiter Gehsteig durch die gesamte Kranebitterstraße vom Cyta bis zur Bahnhofstraße mit Zebrastreifen über die Bahnhofstraße in Richtung Völser Badl, und Seestraße.
+
+<img src="kranebitterstr-querschnitt.PNG" width="50%" alt="Vorschlag zu Straßen-Querschnitt mit ca. 5m PKW Fahrbahn und 2m Gehsteig ostseitig">
+
+Der Radverker soll dabei auf der Straße geführt sein.
+
+<img src="kranebitterstr-vorschlag-gehsteig-20050110.PNG" width="100%" alt="Vorschlag zu Gehsteigführung: ca. 5m für PKW Fahrbahn und 2m Gehsteig ostseitig">
+
+
 
 ---
-teaser: Im Zuge des Umbaus des Völser Bahnhofs (geplant 2026-2029) soll die Unterführung in der Kranebitterstraße umgebaut werden.
+teaser: Im Zuge des Umbaus des Völser Bahnhofs (geplant 2026-2029) soll die Unterführung in der Kranebitterstraße umgebaut werden und für den PKW-Verkehr in beiden Richtungen geöffnet werden.
 ---
 facts:
 
@@ -31,6 +42,14 @@ fact: Wohngebiet zum EKZ Cyta
 label: vom
 ----
 fact: Stadtbus T zum Völser Badl
+#### fact ####
+label: Situation Gehsteig
+----
+fact: viel zu eng! kein ausweichen möglich, ungeeignet für Rollstuhl/Kinderwagen
+#### fact ####
+label: Situation Einfahrt Unterführung
+----
+fact: Gefährlich - Gegenverkehr wird zu spät gesehen
 ---
 pub_date: 2025-02-12
 ---
