@@ -23,20 +23,9 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: ÖBB Präsentation Umbau Bahnhof Völs
-----
-date: 2025-06-17 16:00:00 Europe/Vienna
-----
-location: VAZ Blaike Völs
-----
-text:
-
-ÖBB präsentiert das Großprojekt "Umbau Bahnhof Völs"
-Barrierefreiheit, Neugestaltung Vorplatz und Nordseite, P+R etc.
-#### event ####
 title: Stammtisch
 ----
-date: 2025-06-26 19:30:00 Europe/Vienna
+date: 2025-07-08 19:30:00 Europe/Vienna
 ----
 location: Terra Mia Völs, Innsbrucker Str. 4
 ----
