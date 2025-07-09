@@ -23,11 +23,19 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Stammtisch
+title: Stammtisch August
 ----
-date: 2025-07-08 19:30:00 Europe/Vienna
+date: 2025-08-25 19:00:00 Europe/Vienna
 ----
-location: Terra Mia Völs, Innsbrucker Str. 4
+location: Stigger, Völs
+----
+text: Wir freuen uns auf euch!
+#### event ####
+title: Stammtisch September
+----
+date: 2025-09-09 19:00:00 Europe/Vienna
+----
+location: Terra Mia, Völs
 ----
 text: Wir freuen uns auf euch!
 ---
