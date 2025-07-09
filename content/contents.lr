@@ -23,7 +23,7 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Stammtisch August
+title: Stammtisch
 ----
 date: 2025-08-25 19:00:00 Europe/Vienna
 ----
@@ -31,7 +31,7 @@ location: Stigger, Völs
 ----
 text: Wir freuen uns auf euch!
 #### event ####
-title: Stammtisch September
+title: Stammtisch
 ----
 date: 2025-09-09 19:00:00 Europe/Vienna
 ----
