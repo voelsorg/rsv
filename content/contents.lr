@@ -23,22 +23,6 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Stammtisch
-----
-date: 2025-08-25 19:00:00 Europe/Vienna
-----
-location: Stigger, Völs
-----
-text: Wir freuen uns auf euch!
-#### event ####
-title: Stammtisch
-----
-date: 2025-09-09 19:00:00 Europe/Vienna
-----
-location: Terra Mia, Völs
-----
-text: Wir freuen uns auf euch!
-#### event ####
 title: Roter Teppich für die Kranebitterstraße!
 ----
 date: 2025-09-20 10:00:00 Europe/Vienna
@@ -47,7 +31,7 @@ location: Raika Völs
 ----
 text:
 
-Am 20. Sept. von 10–13 Uhr heißt’s: „Sichere Wege für alle“. 
+Am 20. Sept. von 10–13 Uhr heißt’s: „SICHERE WEGE FÜR ALLE“. 
 👣 Wir rollen 50m roten Gehsteig aus – und wollen einen Rekord aufstellen! 
 🚲 Mit dabei: Fahrradwerkstatt, Kinderprogramm, Kuchen & Getränke. 
 👉 Komm vorbei und sei Teil der Aktion!
