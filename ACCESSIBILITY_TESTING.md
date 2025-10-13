@@ -1,15 +1,18 @@
 # Accessibility Testing Report
 
 **Site:** Radstammtisch Völs (https://preview.radstammtisch.voels.org)
-**Standard:** WCAG 2.1 Level AA
+**Location:** Völs, Tirol, Austria
+**Standard:** WCAG 2.1 Level AA (exceeds minimum requirements)
 **Date:** 2025-10-13
 **Testing Method:** Automated analysis + Manual review
 
 ## Executive Summary
 
-The site has undergone comprehensive accessibility improvements to meet WCAG 2.1 AA standards, required by German BFSG law (effective June 2025).
+The site has undergone comprehensive accessibility improvements to meet WCAG 2.1 AA standards.
 
-**Overall Status:** ✅ **Compliant** with minor documented exceptions
+**Legal Context:** As a non-commercial civic organization website in Austria, this site is **not required** to comply with the Austrian Barrierefreiheitsgesetz (BaFG, effective June 28, 2025), which primarily applies to commercial websites offering online transactions. However, this site voluntarily implements accessibility best practices to ensure inclusive access for all users.
+
+**Overall Status:** ✅ **Compliant with WCAG 2.1 AA** with minor documented exceptions
 
 ---
 
@@ -202,16 +205,17 @@ Bootstrap 5 default sizing meets WCAG requirements:
 
 ## Outstanding Recommendations
 
-### Optional Enhancements (Not Required for AA)
+### Optional Enhancements (Not Required for AA or BaFG)
 
-1. **Accessibility Statement Page** (Recommended by BFSG)
+1. **Accessibility Statement Page** (Optional for non-commercial sites)
    - Create `/barrierefreiheit` page
    - Document compliance level
    - Provide feedback contact
 
-2. **Easy Language Version** (Recommended by BITV 2.0)
+2. **Easy Language Version** ("Leichte Sprache")
    - Simplified German version of homepage
    - Optional but encouraged for civic organizations
+   - Not required by BaFG for exempt organizations
 
 3. **Enhanced Navbar Contrast**
    - Consider white text instead of yellow
@@ -226,12 +230,15 @@ Bootstrap 5 default sizing meets WCAG requirements:
 
 ## Compliance Statement
 
-This website aims to conform to WCAG 2.1 Level AA standards as required by:
-- German BFSG (Barrierefreiheitsstärkungsgesetz)
-- EU Accessibility Act
-- BITV 2.0 (Barrierefreie-Informationstechnik-Verordnung)
+This website voluntarily conforms to WCAG 2.1 Level AA standards.
 
-**Compliance Status:** Substantially conformant with one documented exception (navbar contrast)
+**Legal Status in Austria:**
+- The Austrian Barrierefreiheitsgesetz (BaFG), effective June 28, 2025, implements the EU Accessibility Act
+- BaFG primarily applies to commercial websites offering online transactions (e-commerce, bookings, etc.)
+- **This civic organization website is exempt** as it's non-commercial and informational
+- However, we voluntarily implement accessibility best practices for inclusive access
+
+**Compliance Status:** Substantially conformant with WCAG 2.1 AA, with one documented exception (navbar contrast)
 
 **Last Updated:** 2025-10-13
 **Next Review:** 2026-10-13 (annual review recommended)

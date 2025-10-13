@@ -144,7 +144,11 @@ Edit Jinja2 templates in `templates/`. The base template is `layout.html`. Chang
 
 ## Accessibility Guidelines
 
-This site follows WCAG 2.1 AA accessibility standards. When editing content or templates:
+This site voluntarily follows WCAG 2.1 AA accessibility standards for inclusive access.
+
+**Legal Context (Austria):** While the Austrian Barrierefreiheitsgesetz (BaFG, effective June 28, 2025) primarily applies to commercial websites, this civic organization site implements accessibility best practices voluntarily.
+
+When editing content or templates:
 
 ### Content Editing Guidelines
 
