@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
       <div class="col">
         {% if this.attachments.images.filter(F._id.endswith(this.image)).first() %}
-        <img src="{{ this.attachments.images.filter(F._id.endswith(this.image)).first()|url }}" class="rounded" width="100%" loading="lazy" />
+        <img src="{{ this.attachments.images.filter(F._id.endswith(this.image)).first()|url }}" alt="{{ this.image_alt }}" class="rounded" width="100%" loading="lazy" />
         {% endif %}
       </div>
     </div>
@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
              data-gallery="schwerpunkt-gallery"
              data-toggle="lightbox"
              class="rsv-lightbox img-fluid px-2 py-2"
+             alt="Galerie-Bild {{ loop.index }}"
              style="object-fit: contain">
       </div>
     </div>

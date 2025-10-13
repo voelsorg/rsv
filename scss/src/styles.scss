@@ -92,6 +92,26 @@ $rsv-lila: rgb(152, 97, 235) !default;
   --rsv-lila-rgb: 152, 97, 235;
 }
 
+// Skip link for accessibility
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--rsv-lila);
+  color: var(--rsv-gelb);
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: 600;
+  z-index: 9999;
+  border-radius: 0 0 4px 0;
+
+  &:focus {
+    top: 0;
+    outline: 3px solid var(--rsv-gelb);
+    outline-offset: 2px;
+  }
+}
+
 body {
 
   // more padding

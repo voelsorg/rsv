@@ -6,7 +6,7 @@
   <h1>{{ this.title }}</h1>
   <p class="lead">{{ this .teaser }}</p>
   {% if this.attachments.images.filter(F._id.endswith(this.image)).first() %}
-  <img class="mb-3 rounded" src="{{ this.attachments.images.filter(F._id.endswith(this.image)).first()|url }}" width="100%" loading="lazy" />
+  <img class="mb-3 rounded" src="{{ this.attachments.images.filter(F._id.endswith(this.image)).first()|url }}" alt="{{ this.image_alt }}" width="100%" loading="lazy" />
   {% endif %}
   {{ this.body }}
 {% endblock %}
