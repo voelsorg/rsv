@@ -49,7 +49,7 @@ $headings-font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", roboto, 
 // @import "../node_modules/bootstrap/scss/accordion"; // Not used
 // @import "../node_modules/bootstrap/scss/breadcrumb"; // Not used
 @import "../node_modules/bootstrap/scss/pagination";
-// @import "../node_modules/bootstrap/scss/badge"; // Not used
+@import "../node_modules/bootstrap/scss/badge"; // Used by event date blocks
 // @import "../node_modules/bootstrap/scss/alert"; // Not used
 // @import "../node_modules/bootstrap/scss/progress"; // Not used
 @import "../node_modules/bootstrap/scss/list-group";
