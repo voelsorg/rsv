@@ -75,9 +75,8 @@ $headings-font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", roboto, 
 // load Fonts
 @import "fonts";
 
-// Bring in Lightgallery
-// https://www.lightgalleryjs.com/docs/getting-started/
-@import "lightgallery/scss/lightgallery";
+// Note: Lightgallery 2.9.0+ SCSS uses @use syntax which conflicts with Bootstrap's @import
+// Using precompiled CSS instead - see assets/static/lightgallery.css and layout.html
 
 
 //
