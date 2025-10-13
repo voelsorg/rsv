@@ -11,7 +11,7 @@
     "scripts": {
       "build": "npm run css",
       "css-compile": "sass --source-map --embed-sources --no-error-css --load-path=node_modules src/:../assets/static/",
-      "css-lint": "stylelint scss/",
+      "css-lint": "stylelint \"src/**/*.scss\"",
       "css-prefix": "postcss --replace ../assets/static/styles.css --use autoprefixer --map",
       "css": "npm-run-all css-compile css-prefix",
       "watch": "nodemon -e html,scss -x \"npm run css\"",
