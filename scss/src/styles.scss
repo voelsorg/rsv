@@ -53,13 +53,13 @@ $headings-font-family: "Fredoka", system-ui, -apple-system, "Segoe UI", roboto, 
 // @import "../node_modules/bootstrap/scss/alert"; // Not used
 // @import "../node_modules/bootstrap/scss/progress"; // Not used
 @import "../node_modules/bootstrap/scss/list-group";
-// @import "../node_modules/bootstrap/scss/close"; // Not used
+@import "../node_modules/bootstrap/scss/close"; // Used by bs5-lightbox modal
 // @import "../node_modules/bootstrap/scss/toasts"; // Not used
-// @import "../node_modules/bootstrap/scss/modal"; // Not used
+@import "../node_modules/bootstrap/scss/modal"; // Used by bs5-lightbox
 // @import "../node_modules/bootstrap/scss/tooltip"; // Not used
 // @import "../node_modules/bootstrap/scss/popover"; // Not used
-// @import "../node_modules/bootstrap/scss/carousel"; // Not used
-// @import "../node_modules/bootstrap/scss/spinners"; // Not used
+@import "../node_modules/bootstrap/scss/carousel"; // Used by bs5-lightbox gallery
+@import "../node_modules/bootstrap/scss/spinners"; // Used by bs5-lightbox loading state
 // @import "../node_modules/bootstrap/scss/offcanvas"; // Not used
 // @import "../node_modules/bootstrap/scss/placeholders"; // Not used
 
