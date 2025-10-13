@@ -1,7 +1,7 @@
 {% macro render_teaser(article, variant="", image_ratio=1) %}
 
 <div class="col teaser">
-  <a href="{{ article|url }}" class="card text-decoration-none text-reset display-block d-flex flex-column " style="height: 100%">
+  <a href="{{ article|url }}" class="card text-decoration-none text-reset display-block d-flex flex-column " style="height: 100%" aria-label="Artikel lesen: {{ article.title }}">
     {% if article.attachments.images.filter(F._id.endswith(article.image)).first() %}
     <img class="card-img-top" width="100%"
       src="{{ article.attachments.images.filter(F._id.endswith(article.image)).first().thumbnail(1300, 1300*image_ratio, mode='crop')|url }}" alt="{{ article.image_alt }}" loading="lazy" />
@@ -27,7 +27,7 @@
       <small class="text-body-secondary">{{ article.state }}</small>
       {% endif %}
       <div class="btn-group">
-        <button type="button" class="btn btn-sm btn-secondary">mehr lesen &hellip;</button>
+        <span class="btn btn-sm btn-secondary" aria-hidden="true">mehr lesen &hellip;</span>
       </div>
     </div>
   </a>

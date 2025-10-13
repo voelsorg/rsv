@@ -12691,6 +12691,38 @@ body .rsv-event {
   margin-left: 0;
   margin-right: 0;
 }
+body a:focus,
+body button:focus,
+body input:focus,
+body select:focus,
+body textarea:focus,
+body [tabindex]:focus {
+  outline: 3px solid var(--rsv-gelb);
+  outline-offset: 2px;
+}
+body .card a:focus {
+  outline: 3px solid var(--rsv-lila);
+  outline-offset: 2px;
+}
+body .btn:focus,
+body .btn:focus-visible {
+  outline: 3px solid var(--rsv-gelb);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+body .btn-primary:focus,
+body .btn-primary:focus-visible {
+  outline-color: var(--rsv-gelb);
+}
+body .btn-secondary:focus,
+body .btn-secondary:focus-visible {
+  outline-color: var(--rsv-lila);
+}
+body .nav-link:focus,
+body .navbar-nav .nav-link:focus {
+  outline: 3px solid var(--rsv-gelb);
+  outline-offset: 2px;
+}
 body nav.bg-body-tertiary {
   background-color: var(--rsv-lila) !important;
   --bs-nav-link-color: var(--rsv-gelb);
