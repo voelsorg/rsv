@@ -18,15 +18,15 @@ Diese Website ist **nicht verpflichtet**, das österreichische Barrierefreiheits
 
 ### Konformitätsstatus
 
-Diese Website ist **im Wesentlichen konform** mit WCAG 2.1 Stufe AA.
+Diese Website ist **vollständig konform** mit WCAG 2.1 Stufe AA.
 
-**Im Wesentlichen konform** bedeutet, dass fast alle Anforderungen erfüllt sind, mit Ausnahme der unten dokumentierten Einschränkungen.
+**Vollständig konform** bedeutet, dass alle Anforderungen der WCAG 2.1 Stufe AA erfüllt sind.
 
 ### Bekannte Einschränkungen
 
-Trotz unserer Bemühungen können einige Barrieren für Nutzer bestehen:
+Wir haben alle bekannten Barrieren behoben. Die Website erfüllt nun vollständig die WCAG 2.1 AA-Standards.
 
-1. **Navigationleiste**: Die gelbe Textfarbe auf violettem Hintergrund hat ein Kontrastverhältnis von ca. 1,6:1, was unter dem empfohlenen WCAG-Standard von 4,5:1 liegt. Wir verwenden große, fette Schrift zur Kompensation. Aktive Navigationspunkte werden in Weiß angezeigt (8,5:1 Kontrast).
+Falls Sie dennoch auf Barrieren stoßen, informieren Sie uns bitte (siehe Feedback-Bereich unten).
 
 ### Implementierte Barrierefreiheitsmaßnahmen
 
@@ -36,6 +36,8 @@ Unsere Website beinhaltet folgende Barrierefreiheitsfunktionen:
 - **Skip-Navigation-Link** zum direkten Sprung zum Hauptinhalt
 - **Alternative Texte** für alle Bilder
 - **ARIA-Labels** für Icon-Links und andere nicht-textuelle Elemente
+- **Hoher Farbkontrast** in der Navigation (Weiß auf Violett: 8,5:1 erfüllt AAA)
+- **Unterstreichungen** für Hover- und Active-Zustände zur besseren Erkennbarkeit
 - **Sichtbare Fokus-Indikatoren** für Tastaturnavigation (3:1 Kontrast)
 - **Logische Überschriftenhierarchie** (h1 → h2 → h3)
 - **Beschreibende Linktexte** mit zusätzlichem Kontext für Screenreader
