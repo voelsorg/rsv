@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="../../static/styles.css?h=f90ca67f" />
+  <link rel="stylesheet" href="../../static/styles.css?h=a523d7bd" />
   <title>Radparade Völs — Radstammtisch Völs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/static/favicon-96x96.png" sizes="96x96" />
@@ -16,18 +16,19 @@
 <script src="../../static/index.bundle.min.js?h=95e595ad"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-
+  // Initialize bs5-lightbox for gallery images
   const options = {
-	  keyboard: true,
-	  size: 'fullscreen'
+    keyboard: true,
+    size: 'fullscreen'
   };
 
-  document.querySelectorAll('.rsv-lightbox').forEach((el) => el.addEventListener('click', (e) => {
-    e.preventDefault();
-    const lightbox = new Lightbox(el, options);
-    lightbox.show();
-  }));
-
+  document.querySelectorAll('[data-toggle="lightbox"]').forEach((el) => {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      const lightbox = new Lightbox(this, options);
+      lightbox.show();
+    });
+  });
 });
 </script>
 
@@ -183,276 +184,324 @@ document.addEventListener("DOMContentLoaded", function() {
   <h2>Album</h2>
   <div class="row">
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="03-img-6207@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/03-img-6207.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 1"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/03-img-6207.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="03-img-6207@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 1"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="05-img-6225@1200x1200.JPG"
-             data-src="/schwerpunkte/radparade-voels/05-img-6225.JPG"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 2"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/05-img-6225.JPG"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="05-img-6225@1200x1200.JPG"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 2"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="240921-socialmedia-radstammtisch-radparade-danke@1200x1200.png"
-             data-src="/schwerpunkte/radparade-voels/240921-socialmedia-radstammtisch-radparade-danke.png"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 3"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/240921-socialmedia-radstammtisch-radparade-danke.png"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="240921-socialmedia-radstammtisch-radparade-danke@1200x1200.png"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 3"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="09-20240920-170124@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/09-20240920-170124.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 4"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/09-20240920-170124.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="09-20240920-170124@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 4"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="08-20240920-165213@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/08-20240920-165213.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 5"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/08-20240920-165213.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="08-20240920-165213@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 5"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="04-img-6224@1200x1200.JPG"
-             data-src="/schwerpunkte/radparade-voels/04-img-6224.JPG"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 6"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/04-img-6224.JPG"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="04-img-6224@1200x1200.JPG"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 6"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="06-img-6244@1200x1200.JPG"
-             data-src="/schwerpunkte/radparade-voels/06-img-6244.JPG"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 7"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/06-img-6244.JPG"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="06-img-6244@1200x1200.JPG"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 7"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="11-img-6219@1200x1200.JPG"
-             data-src="/schwerpunkte/radparade-voels/11-img-6219.JPG"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 8"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/11-img-6219.JPG"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="11-img-6219@1200x1200.JPG"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 8"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="02-img-6226@1200x1200.JPG"
-             data-src="/schwerpunkte/radparade-voels/02-img-6226.JPG"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 9"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/02-img-6226.JPG"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="02-img-6226@1200x1200.JPG"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 9"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="01-20240920-150225@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/01-20240920-150225.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 10"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/01-20240920-150225.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="01-20240920-150225@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 10"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="20240920-141112@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/20240920-141112.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 11"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/20240920-141112.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="20240920-141112@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 11"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="07-20240920-165141@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/07-20240920-165141.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 12"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/07-20240920-165141.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="07-20240920-165141@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 12"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="03a-img-6241@1200x1200.JPG"
-             data-src="/schwerpunkte/radparade-voels/03a-img-6241.JPG"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 13"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/03a-img-6241.JPG"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="03a-img-6241@1200x1200.JPG"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 13"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="20240920-141103@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/20240920-141103.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 14"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/20240920-141103.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="20240920-141103@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 14"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="02-img-6230@1200x1200.JPG"
-             data-src="/schwerpunkte/radparade-voels/02-img-6230.JPG"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 15"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/02-img-6230.JPG"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="02-img-6230@1200x1200.JPG"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 15"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
-    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center" style="cursor:pointer">
-      <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
-        <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
-          <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
-          <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
-        </svg></div>
-        <img src="10-20240920-175802@1200x1200.jpg"
-             data-src="/schwerpunkte/radparade-voels/10-20240920-175802.jpg"
-             data-gallery="schwerpunkt-gallery"
-             data-toggle="lightbox"
-             class="rsv-lightbox img-fluid px-2 py-2"
-             alt="Galerie-Bild 16"
-             style="object-fit: contain">
-      </div>
+    <div class="col-sm-6 col-md-4 col-xl-3 justify-content-center align-items-center">
+      <a href="/schwerpunkte/radparade-voels/10-20240920-175802.jpg"
+         data-toggle="lightbox"
+         data-gallery="schwerpunkt-gallery"
+         data-type="image"
+         class="d-block">
+        <div class="ratio ratio-1x1 mb-3 rounded bg-dark position-relative">
+          <div class="position-absolute top-0 start-0 text-secondary ms-1 mt-1" style="width:24px; height: 24px; z-index: 100; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
+            <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
+            <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
+          </svg></div>
+          <img src="10-20240920-175802@1200x1200.jpg"
+               class="img-fluid px-2 py-2"
+               alt="Galerie-Bild 16"
+               style="object-fit: contain">
+        </div>
+      </a>
     </div>
     
   </div>
