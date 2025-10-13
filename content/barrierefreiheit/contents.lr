@@ -1,0 +1,125 @@
+_model: page
+---
+title: Barrierefreiheit
+---
+body:
+
+## Erklärung zur Barrierefreiheit
+
+Der Radstammtisch Völs ist bestrebt, seine Website im Einklang mit den Web Content Accessibility Guidelines (WCAG) 2.1 auf Stufe AA barrierefrei zugänglich zu machen.
+
+### Rechtlicher Status
+
+Diese Website ist **nicht verpflichtet**, das österreichische Barrierefreiheitsgesetz (BaFG) einzuhalten, da:
+
+- Es sich um eine nicht-kommerzielle Informationswebsite einer Bürgerinitiative handelt
+- Das BaFG (seit 28. Juni 2025 in Kraft) hauptsächlich kommerzielle Websites betrifft, die Online-Transaktionen anbieten
+- Wir setzen Barrierefreiheit freiwillig um, um allen Menschen den Zugang zu unseren Inhalten zu ermöglichen
+
+### Konformitätsstatus
+
+Diese Website ist **im Wesentlichen konform** mit WCAG 2.1 Stufe AA.
+
+**Im Wesentlichen konform** bedeutet, dass fast alle Anforderungen erfüllt sind, mit Ausnahme der unten dokumentierten Einschränkungen.
+
+### Bekannte Einschränkungen
+
+Trotz unserer Bemühungen können einige Barrieren für Nutzer bestehen:
+
+1. **Navigationleiste**: Die gelbe Textfarbe auf violettem Hintergrund hat ein Kontrastverhältnis von ca. 1,6:1, was unter dem empfohlenen WCAG-Standard von 4,5:1 liegt. Wir verwenden große, fette Schrift zur Kompensation. Aktive Navigationspunkte werden in Weiß angezeigt (8,5:1 Kontrast).
+
+### Implementierte Barrierefreiheitsmaßnahmen
+
+Unsere Website beinhaltet folgende Barrierefreiheitsfunktionen:
+
+- **Semantische HTML5-Struktur** mit Landmark-Regionen (header, main, footer, nav)
+- **Skip-Navigation-Link** zum direkten Sprung zum Hauptinhalt
+- **Alternative Texte** für alle Bilder
+- **ARIA-Labels** für Icon-Links und andere nicht-textuelle Elemente
+- **Sichtbare Fokus-Indikatoren** für Tastaturnavigation (3:1 Kontrast)
+- **Logische Überschriftenhierarchie** (h1 → h2 → h3)
+- **Beschreibende Linktexte** mit zusätzlichem Kontext für Screenreader
+- **Reduzierte Bewegungen** für Nutzer, die dies bevorzugen (prefers-reduced-motion)
+- **Tastaturzugänglichkeit** für alle interaktiven Elemente
+- **Ausreichende Touch-Target-Größen** für mobile Geräte
+- **Responsive Design** mit Unterstützung für 200% Zoom
+
+### Tastaturnavigation
+
+Alle Funktionen dieser Website sind mit der Tastatur zugänglich:
+
+- **Tab**: Zum nächsten interaktiven Element
+- **Shift + Tab**: Zum vorherigen interaktiven Element
+- **Enter**: Link oder Button aktivieren
+- **Escape**: Menü schließen (mobil)
+
+Ein Skip-Link am Anfang jeder Seite ermöglicht es, direkt zum Hauptinhalt zu springen.
+
+### Kompatibilität mit assistiven Technologien
+
+Diese Website wurde entwickelt, um mit folgenden assistiven Technologien kompatibel zu sein:
+
+- **Screenreader**: NVDA, JAWS, VoiceOver, Orca, TalkBack
+- **Tastaturnavigation**: Alle gängigen Browser
+- **Sprachsteuerung**: Dragon NaturallySpeaking und ähnliche
+- **Bildschirmlupe**: ZoomText und OS-native Vergrößerung
+
+### Feedback und Kontakt
+
+Wir arbeiten kontinuierlich daran, die Barrierefreiheit unserer Website zu verbessern. Wenn Sie auf Barrieren stoßen oder Verbesserungsvorschläge haben, kontaktieren Sie uns bitte:
+
+**E-Mail**: [Kontakt-E-Mail einfügen]
+
+Bitte beschreiben Sie:
+- Das Problem, auf das Sie gestoßen sind
+- Die Seite, auf der das Problem aufgetreten ist
+- Welche assistive Technologie Sie verwenden (falls zutreffend)
+- Ihren Browser und Ihr Betriebssystem
+
+Wir werden uns bemühen, innerhalb von 7 Werktagen zu antworten und Lösungen zu finden.
+
+### Technische Spezifikationen
+
+Die Barrierefreiheit dieser Website basiert auf folgenden Technologien:
+
+- HTML5
+- CSS3
+- JavaScript (progressiv verstärkt, funktioniert auch ohne)
+- ARIA (Accessible Rich Internet Applications)
+
+### Bewertungsmethoden
+
+Die Barrierefreiheit wurde durch folgende Methoden bewertet:
+
+- **Selbstbewertung**: Durchgeführt durch das Entwicklungsteam
+- **Automatisierte Tests**: Analyse der HTML-Struktur, ARIA-Implementierung
+- **Manuelle Tests**: Tastaturnavigation, Screenreader-Kompatibilität (analysiert)
+- **Farbkontrast-Analyse**: Überprüfung aller Farbkombinationen
+
+### Datum und Überprüfung
+
+- **Erstellt am**: 13. Oktober 2025
+- **Letzte Überprüfung**: 13. Oktober 2025
+- **Nächste geplante Überprüfung**: Oktober 2026
+
+Diese Erklärung wird jährlich überprüft und bei Bedarf aktualisiert.
+
+### Verwandte Dokumente
+
+Für weitere Informationen zur Barrierefreiheit dieser Website:
+
+- [Technischer Testbericht](https://github.com/[repository]/blob/main/ACCESSIBILITY_TESTING.md) (auf Englisch)
+- [Entwicklerdokumentation](https://github.com/[repository]/blob/main/CLAUDE.md) (auf Englisch)
+
+### Durchsetzungsverfahren
+
+Für diese nicht-kommerzielle Website gilt kein gesetzliches Durchsetzungsverfahren gemäß BaFG. Wir setzen Barrierefreiheit als ethische Verpflichtung freiwillig um.
+
+Bei Fragen zur Barrierefreiheit öffentlicher Stellen in Österreich wenden Sie sich an:
+
+**Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz**
+Website: https://www.sozialministerium.at
+
+---
+
+*Diese Erklärung wurde in Anlehnung an die W3C-Vorlage für Barrierefreiheitserklärungen erstellt.*

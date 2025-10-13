@@ -196,3 +196,138 @@ When editing content or templates:
 - Add `aria-label` to icon-only links
 - Mark decorative elements with `aria-hidden="true"`
 - Don't duplicate visible text in aria-label
+
+## Accessibility Testing Procedures
+
+Regular accessibility testing ensures the site remains compliant and usable for all visitors.
+
+### Quick Pre-Commit Checklist
+
+Before committing content or template changes:
+
+- [ ] All images have descriptive alt text
+- [ ] Headings use proper hierarchy (h1 → h2 → h3)
+- [ ] Links have descriptive text or aria-labels
+- [ ] No HTML heading tags in content (use Markdown `##` instead)
+- [ ] Interactive elements are keyboard accessible
+- [ ] Color contrast meets 4.5:1 for normal text, 3:1 for large text
+
+### Manual Testing Workflow
+
+**1. Keyboard Navigation (5 minutes)**
+```
+- Tab through entire page
+- Verify skip link works (Tab → Enter)
+- Check all interactive elements are reachable
+- Ensure focus indicators are visible
+- Test with Shift+Tab for reverse navigation
+```
+
+**2. Visual Inspection (5 minutes)**
+```
+- Check focus indicators on links, buttons, inputs
+- Verify text is readable at 200% zoom
+- Test responsive breakpoints (mobile, tablet, desktop)
+- Review color contrast for any new colored elements
+```
+
+**3. Screen Reader Spot Check (10 minutes - Optional)**
+
+Using NVDA (Windows), Orca (Linux), or VoiceOver (macOS):
+```
+- Navigate with heading shortcuts (H key)
+- Jump through landmarks (D key)
+- Listen to image alt text announcements
+- Verify link context is clear
+```
+
+### Automated Testing Tools
+
+**Browser Extensions:**
+- **[axe DevTools](https://www.deque.com/axe/devtools/)** - Install in Chrome/Firefox
+  - Run on homepage, sample article, sample schwerpunkt
+  - Fix any "Critical" or "Serious" issues
+
+- **[WAVE](https://wave.webaim.org/extension/)** - Browser extension
+  - Visual feedback overlay
+  - Useful for quick checks
+
+**Command Line:**
+```bash
+# Lighthouse accessibility audit (Chrome DevTools)
+# Open DevTools → Lighthouse → Accessibility → Run
+```
+
+### Annual Review Checklist
+
+**Scheduled: October each year**
+
+1. **Update Documentation**
+   - [ ] Review [ACCESSIBILITY_TESTING.md](ACCESSIBILITY_TESTING.md)
+   - [ ] Update "Last Updated" date in `/barrierefreiheit` page
+   - [ ] Check for WCAG updates (currently 2.1 AA, watch for 2.2 adoption)
+
+2. **Run Automated Scans**
+   - [ ] axe DevTools on 5 representative pages
+   - [ ] WAVE on homepage and main navigation
+   - [ ] Lighthouse accessibility audit
+
+3. **Manual Testing**
+   - [ ] Keyboard navigation on new pages
+   - [ ] Screen reader test on updated sections
+   - [ ] Mobile touch target verification
+   - [ ] 200% zoom test
+
+4. **Content Audit**
+   - [ ] Check new images for alt text
+   - [ ] Verify new content uses proper heading hierarchy
+   - [ ] Review any new interactive elements (forms, modals, etc.)
+
+5. **Report Findings**
+   - [ ] Document any issues found
+   - [ ] Create GitHub issues for fixes
+   - [ ] Update ACCESSIBILITY_TESTING.md with results
+
+### Common Issues to Watch For
+
+**During Development:**
+- Missing alt text on new images
+- Raw HTML headings (`<h3>`) instead of Markdown (`###`)
+- Links with vague text ("click here", "more")
+- New color combinations without contrast check
+- Interactive elements without keyboard access
+
+**During Content Editing:**
+- Images without `image_alt` field filled
+- Skipping heading levels (h1 → h3)
+- Embedded content (iframes) without title attribute
+- Complex tables without proper markup
+
+### Resources
+
+**Documentation:**
+- Full testing report: [ACCESSIBILITY_TESTING.md](ACCESSIBILITY_TESTING.md)
+- Austrian law info: [Barrierefreiheitsgesetz (BaFG)](https://www.sozialministerium.gv.at)
+- WCAG Guidelines: [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
+
+**Testing Tools:**
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+- [axe DevTools Browser Extension](https://www.deque.com/axe/devtools/)
+
+**Learning:**
+- [WebAIM Articles](https://webaim.org/articles/)
+- [A11y Project Checklist](https://www.a11yproject.com/checklist/)
+- [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+
+### Contact for Accessibility Issues
+
+If users report accessibility issues:
+
+1. Document the issue in detail (browser, AT used, specific problem)
+2. Reproduce if possible
+3. Check ACCESSIBILITY_TESTING.md for known issues
+4. Test fix with relevant assistive technology
+5. Update documentation if it's a new category of issue
+
+Accessibility is an ongoing commitment, not a one-time achievement.
