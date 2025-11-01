@@ -23,16 +23,6 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Radstammtisch
-----
-date: 2025-10-21 19:00:00 Europe/Vienna
-----
-location: Terra Mia, Völs
-----
-text:
-
-Jeder der Interesse hat ist herzlich willkommen! Wir freuen uns auf euch! 
-#### event ####
 title: Roter Teppich für die Kranebitterstraße!
 ----
 date: 2025-09-20 10:00:00 Europe/Vienna
@@ -44,6 +34,6 @@ text:
 DANKE! an alle die bei unserer Aktion "ROTER TEPPICH" teilgenommen haben!
 Wir konnten mit EUCH gemeinsam zeigen, wie SICHERE WEGE FÜR ALLE in diesem fall ein sicherer Gehsteig zur Cyta aussehen kann.
 
-https://radstammtisch.voels.org/aktuelles/roter-teppich-fuer-die-kranebitterstrasse-metermachen/
+https://radstammtisch.voels.org/aktuelles/
 ---
 image: radldemovoels.jpg
