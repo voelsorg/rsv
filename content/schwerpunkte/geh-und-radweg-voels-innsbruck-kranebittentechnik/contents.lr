@@ -1,4 +1,4 @@
-title: Geh- und Radweg: Völs - Innsbruck Kranebitten/Technik
+title: Geh- und Radweg: Innsbruck West <-> Völs
 ---
 _discoverable: yes
 ---
@@ -11,7 +11,7 @@ fact: Völs ↔ Kranbitten/Technik
 #### fact ####
 label: Verkehrsaufkommen
 ----
-fact: Hoch
+fact: Hoch bis zu 2000 Radfahrer*innen/Tag
 #### fact ####
 label: Gefährliche Kreuzungen
 ----
@@ -31,20 +31,20 @@ pub_date: 2025-12-07
 ---
 state: laufend
 ---
-teaser: Diese zentrale Alltagsroute, wird an mehreren Stellen noch den Anforderungen nicht gerecht. Gefährliche Kurven, fehlende Beleuchtung und unübersichtliche Querungen zeigen klaren Verbesserungsbedarf. Mit der geplanten Regionalbahn droht die Verbindung zusätzlich durch eine Schrankenanlage unterbrochen zu werden. Neue Planungen versprechen zwar Abhilfe – JETZT braucht es eine rasche Entscheidung für die Umsetzung.
+teaser: Diese zentrale Alltagsroute weist Engstellen, gefährliche Kurven und unübersichtliche Straßen-Querungen auf.  Durch die geplante Regionalbahn droht zusätzlich eine Unterbrechung per Bahn-Schrankenanlage. Neue Planungen versprechen zwar Abhilfe – JETZT braucht es eine rasche Entscheidung für die Umsetzung.
 ---
 body:
 
 # Bedeutung
-Der Weg zwischen Völs und Innsbruck Kranebitten/Technik ist ein vielbefahrener Radweg. Er bindet die die westlichen Stadtteile von Innsbruck an:
-- den Bahnknotenpunkt Völs
-- Völs EKZ Cyta
-- Völser Siedlungsgebiete südlich der Bahn
+Der Weg zwischen Innsbruck West und Völs Bahnhof ist ein vielbefahrener Radweg. Er bindet die die westlichen Stadtteile von Innsbruck an:
+- den Bahnknotenpunkt Völs - Schüler, Pendler von und nach Innsbruck
 - Inntalradweg
 - geplante Kletterhalle bei FlipLab
+- Völs EKZ Cyta
+- Völser Siedlungsgebiete südlich der Bahn
 
 Künftig ist eine weiter steigende Bedeutung durch geplanten neuen Stadtteil „Harterhof-Siedlung“ (zusätzlich ca. 1500 Wohnungen und ca. 700 Arbeitsplätze) zu erwarten.
-Derzeit ist die Strecke zwischen Bahnhof Völs und Innsbruck Technik ca. 2,5km lang (10min mit Fahrrad).
+Derzeit ist die Strecke zwischen Bahnhof Völs und Innsbruck Kranebitten ca. 1km lang (5min mit Fahrrad).
 
 <img src="folie2.PNG" alt="Einzugsgebiet Technik West und Entfernung zum Bahnhof Völs 2km" title="Titel" width="100%" />
 
@@ -110,7 +110,8 @@ Einzug die Variante 3 kommt ohne beschrankten Bahnübergang auf der Hauptverbind
 
 ### IVB Variante 3
 - (+) ohne beschrankten Bahnübergang
--  (+) mit **durchgängiger Beleuchtung**
+- (+) mit **durchgängiger Beleuchtung**
+- (-) Kostenanteil EUR 187.500 pro Gemeinde.
 
 <img src="folie5.PNG" alt="Planungsstand Variante 3 ohne beschrankten Bahnübergang" title="Titel" width="100%" />
 
