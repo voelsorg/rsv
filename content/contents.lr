@@ -23,22 +23,6 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Radstammtisch
-----
-date: 2026-02-18 19:00:00 Europe/Vienna
-----
-location: Terra Mia, Völs
-----
-text: Jeder der Interesse hat ist herzlich willkommen! Wir planen gemeinsam verschiedene Aktionen für 2026. Wir freuen uns auf euch!
-#### event ####
-title: Radstammtisch
-----
-date: 2026-03-18 19:00:00 Europe/Vienna
-----
-location: Terra Mia, Völs
-----
-text: Jeder der Interesse hat ist herzlich willkommen! Wir planen gemeinsam verschiedene Aktionen für 2026. Wir freuen uns auf euch!
-#### event ####
 title: Völser Radl-Börse
 ----
 date: 2026-04-12 08:00:00 Europe/Vienna
@@ -49,5 +33,21 @@ text:
 
 Die Völser Pfadfinder veranstalten wieder die Völser Radls Börse:
 Annahme ab 8:00 Uhr, Verkauf 10-12:00 Uhr. --> Infos: https://radlboerse.voels.org/
+#### event ####
+title: Radstammtisch
+----
+date: 2026-04-15 19:00:00 Europe/Vienna
+----
+location: Terra Mia, Völs
+----
+text: Jeder der Interesse hat ist herzlich willkommen! Wir planen gemeinsam verschiedene Aktionen für 2026. Aktuell arbeiten wir am BICIBUS zur VS Völs. Wir freuen uns auf euch!
+#### event ####
+title: Radstammtisch
+----
+date: 2026-05-20 19:00:00 Europe/Vienna
+----
+location: Terra Mia, Völs
+----
+text: Jeder der Interesse hat ist herzlich willkommen! Wir planen gemeinsam verschiedene Aktionen für 2026. Wir freuen uns auf euch!
 ---
 image: radldemovoels.jpg
