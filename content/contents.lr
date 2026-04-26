@@ -23,31 +23,36 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Völser Radl-Börse
+title: Radstammtisch
 ----
-date: 2026-04-12 08:00:00 Europe/Vienna
+date: 2026-05-19 19:00:00 Europe/Vienna
 ----
-location: Cyta Freigelände, Völs
+location: Terra Mia, Völs
+----
+text: Jeder der Interesse hat ist herzlich willkommen! Wir planen gemeinsam verschiedene Aktionen für 2026. Aktuell arbeiten wir am VeloBus zur VS Völs und einer Abstand macht sicher!. Wir freuen uns auf euch!
+#### event ####
+title: Mitmach-Aktion: Abstand macht Sicher
+----
+date: 2026-05-20 07:00:00 Europe/Vienna
+----
+location: Raika, Völs
 ----
 text:
 
-Die Völser Pfadfinder veranstalten wieder die Völser Radls Börse:
-Annahme ab 8:00 Uhr, Verkauf 10-12:00 Uhr. --> Infos: https://radlboerse.voels.org/
+bring eine Schwimmnudel mit und sei dabei! :-) 
+Start jeweils um 7:00 und um 16:00. Dauer jeweils eine Stunde.  
 #### event ####
-title: Radstammtisch
+title: Mitmach-Aktion: Abstand macht Sicher
 ----
-date: 2026-04-15 19:00:00 Europe/Vienna
+date: 2026-05-21 07:00:00 Europe/Vienna
 ----
-location: Terra Mia, Völs
+location: Raika, Völs
 ----
-text: Jeder der Interesse hat ist herzlich willkommen! Wir planen gemeinsam verschiedene Aktionen für 2026. Aktuell arbeiten wir am BICIBUS zur VS Völs. Wir freuen uns auf euch!
-#### event ####
-title: Radstammtisch
-----
-date: 2026-05-20 19:00:00 Europe/Vienna
-----
-location: Terra Mia, Völs
-----
-text: Jeder der Interesse hat ist herzlich willkommen! Wir planen gemeinsam verschiedene Aktionen für 2026. Wir freuen uns auf euch!
+text:
+
+Sei dabei! :-) Start jeweils um 7:00 und um 16:00. Dauer jeweils eine Stunde.  
+Gemeinsam sichtbar für mehr Abstand im Straßenverkehr. 
+Mit einer besonderen Mitmach-Aktion setzten wir ein klares Zeichen: Abstand schützt – und ist oft einfacher als gedacht.
+Wenn du eine Schwimmnudel, bring sie mit.
 ---
 image: radldemovoels.jpg
