@@ -23,24 +23,13 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Radstammtisch
-----
-date: 2026-05-13 19:30:00 Europe/Vienna
-----
-location: Terra Mia, Völs
-----
-text:
-
-**Alle Interessierten sind herzlich willkommen!**  
-Wir planen Aktionen für 2026 – aktuell den [VELOBUS zur VS Völs](https://radstammtisch.voels.org/schwerpunkte/velobus/) und die Mitmachaktion [ABSTAND macht SICHER](https://radstammtisch.voels.org/aktuelles/aktion-abstand-macht-sicher/). 🚲
-#### event ####
 title: Mitmach-Aktion: Abstand macht Sicher
 ----
 date: 2026-05-20 07:00:00 Europe/Vienna
 ----
 location: Raika, Völs
 ----
-text: 
+text: Start jeweils um 7:00 & 16:00 Uhr.
 #### event ####
 title: Mitmach-Aktion: Abstand macht Sicher
 ----
@@ -53,5 +42,16 @@ text:
 🚲 Schwimmnudel schnappen & mitradeln! 😊
 Start jeweils um 7:00 & 16:00 Uhr.
 [>mehr Infos hier<](https://radstammtisch.voels.org/aktuelles/aktion-abstand-macht-sicher/)
+#### event ####
+title: Radstammtisch
+----
+date: 2026-06-10 19:30:00 Europe/Vienna
+----
+location: Terra Mia, Völs
+----
+text:
+
+**Alle Interessierten sind herzlich willkommen!**  
+Wir planen Aktionen für 2026 – aktuell den [VELOBUS zur VS Völs](https://radstammtisch.voels.org/schwerpunkte/velobus/) 🚲
 ---
 image: radldemovoels.jpg
