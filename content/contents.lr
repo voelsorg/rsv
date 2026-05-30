@@ -23,26 +23,6 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Mitmach-Aktion: Abstand macht Sicher
-----
-date: 2026-05-20 07:00:00 Europe/Vienna
-----
-location: Raika, Völs
-----
-text: Start jeweils um 7:00 & 16:00 Uhr.
-#### event ####
-title: Mitmach-Aktion: Abstand macht Sicher
-----
-date: 2026-05-21 07:00:00 Europe/Vienna
-----
-location: Raika, Völs
-----
-text:
-
-🚲 Schwimmnudel schnappen & mitradeln! 😊
-Start jeweils um 7:00 & 16:00 Uhr.
-[>mehr Infos hier<](https://radstammtisch.voels.org/aktuelles/aktion-abstand-macht-sicher/)
-#### event ####
 title: Radstammtisch
 ----
 date: 2026-06-10 19:30:00 Europe/Vienna
