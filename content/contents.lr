@@ -23,17 +23,6 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Radstammtisch
-----
-date: 2026-06-10 19:30:00 Europe/Vienna
-----
-location: Terra Mia, Völs
-----
-text:
-
-**Alle Interessierten sind herzlich willkommen!**  
-Wir planen Aktionen für 2026 – aktuell den [VELOBUS zur VS Völs](https://radstammtisch.voels.org/schwerpunkte/velobus/) 🚲
-#### event ####
 title: Der Velobus ist unterwegs
 ----
 date: 2026-06-15 07:30:00 Europe/Vienna
@@ -43,5 +32,24 @@ location: Völs
 text:
 
 Vom Montag 15.06. bis Freitag 19.06. belgeiten wir die Kinder mit dem Fahrrad zur Volkschule mit dem > [VELOBUS zur VS Völs](https://radstammtisch.voels.org/schwerpunkte/velobus/) <🚲 
+#### event ####
+title: Radstammtisch
+----
+date: 2026-06-30 19:30:00 Europe/Vienna
+----
+location: Terra Mia, Völs
+----
+text: 
+#### event ####
+title: Radstammtisch
+----
+date: 2026-07-27 19:30:00 Europe/Vienna
+----
+location: Terra Mia, Völs
+----
+text:
+
+**Alle Interessierten sind herzlich willkommen!**  
+Wir planen Aktionen für 2026 – aktuell für die Europäische Mobilitätswoche
 ---
 image: radldemovoels.jpg
