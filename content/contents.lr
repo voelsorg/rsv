@@ -23,16 +23,6 @@ _template: startpage.html
 schedule:
 
 #### event ####
-title: Der Velobus ist unterwegs
-----
-date: 2026-06-17 07:30:00 Europe/Vienna
-----
-location: Völs
-----
-text:
-
-Vom Montag 15.06. bis Freitag 19.06. belgeiten wir die Kinder mit dem Fahrrad zur Volkschule mit dem > [VELOBUS zur VS Völs](https://radstammtisch.voels.org/schwerpunkte/velobus/) <🚲 
-#### event ####
 title: Radstammtisch
 ----
 date: 2026-06-30 19:30:00 Europe/Vienna
