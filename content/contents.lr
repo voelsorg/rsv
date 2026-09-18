@@ -23,9 +23,20 @@ _template: startpage.html
 schedule:
 
 #### event ####
+title: Der Schulweg wird bunt!
+----
+date: 2026-09-25 09:00:00 Europe/Vienna
+----
+location: Kranebitterstraße, Völs
+----
+text:
+
+Wir möchten gemeinsam mit Volksschule und Gemeinde den verlegten Schulweg in der Kranebitterstraße sicherer und sichtbarer gestalten. Ab 13:30 Straßenmalen und Programm für ALLE!
+ **[Mehr über das Projekt „Bunter Schulweg“](/aktuelles/ein-bunter-schulweg-entsteht/)**
+#### event ####
 title: Radstammtisch
 ----
-date: 2026-09-16 19:00:00 Europe/Vienna
+date: 2026-10-21 19:00:00 Europe/Vienna
 ----
 location: Terra Mia, Völs
 ----
@@ -33,14 +44,6 @@ text:
 
 **Lust mitzumachen?** 😊
 
-Wir bereiten gerade die Aktion **[„Bunter Schulweg“](/aktuelles/ein-bunter-schulweg-entsteht/)** vor. Ob beim Organisieren oder am Aktionstag – wir freuen uns über jede helfende Hand!
-#### event ####
-title: der Schulweg wird bunt!
-----
-date: 2026-09-25 09:00:00 Europe/Vienna
-----
-location: Kranebitterstraße, Völs
-----
-text: Wir möchten gemeinsam mit Volksschule und Gemeinde den verlegten Schulweg in der Kranebitterstraße sicherer und sichtbarer gestalten. **[Mehr über das Projekt „Bunter Schulweg“](/aktuelles/ein-bunter-schulweg-entsteht/)**
+Wir planen Aktionen für 2027! Wir freuen uns über alle, die dazustoßen!
 ---
 image: radldemovoels.jpg
