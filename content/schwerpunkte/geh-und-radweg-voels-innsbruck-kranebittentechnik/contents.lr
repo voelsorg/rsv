@@ -13,18 +13,6 @@ label: Verkehrsaufkommen
 ----
 fact: Hoch bis zu 2000 Radfahrer*innen/Tag
 #### fact ####
-label: Gefährliche Kreuzungen
-----
-fact: 2
-#### fact ####
-label: Unzumutbare Steigungen
-----
-fact: 3
-#### fact ####
-label: Gefährliche Kurven
-----
-fact: 1
-#### fact ####
 label: Geplanter Baubeginn
 ----
 fact: 2027/2028
@@ -78,7 +66,7 @@ Die beschlossene Variante 3 führt den Geh- und Radweg gemeinsam mit der Regiona
 
 Damit werden zahlreiche Schwachstellen der bisherigen Verbindung dauerhaft beseitigt.
 
-<img src="regionalbahn-v3-gehradweg-2026.jpg" alt="Planungsstand Variante 3 ohne beschrankten Bahnübergang" title="Titel" width="100%" />
+<img src="regionalbahn-voels-variante3-schema.jpeg" alt="Planungsstand Variante 3 ohne beschrankten Bahnübergang" title="Titel" width="100%" />
 
 ----
 
@@ -102,14 +90,12 @@ Rund zwei Jahre Einsatz, konstruktive Gespräche und Überzeugungsarbeit haben s
 
 Die ursprünglichen Planungen zeigen deutlich, warum wir uns für Variante 3 eingesetzt haben.
 
-### IVB Variante 1 und 2 – ursprüngliche Planung
+### IVB Variante 2 – ursprüngliche Planung
  - ❌ Zusätzlicher beschrankter Bahnübergang auf der Geh- und Radwegverbindung
  - ❌ Enge Kurven und starke Steigungen bleiben bestehen
  - ❌ Keine durchgehende Beleuchtung
  - ❌ Erschwerter Zugang zur Bushaltestelle Cyta Nord
  - ❌ Aufwändigerer Winterdienst
-
-<img src="folie4.PNG" alt="Planungsstand Variante 1+2 mit beschrankten Bahnübergang" title="Titel" width="50%" />
 
 ### IVB Variante 3 – beschlossen!
  - ✅ Gemeinsame Trassenführung mit der Regionalbahn über Inn und Autobahn
@@ -119,7 +105,7 @@ Die ursprünglichen Planungen zeigen deutlich, warum wir uns für Variante 3 ein
  - ✅ Durchgehende Beleuchtung
  - ✅ Direkte Anbindung an Cyta Nord und den Innradweg
 
-<img src="folie5.PNG" alt="Planungsstand Variante 3 ohne beschrankten Bahnübergang" title="Titel" width="50%" />
+<img src="vergleich-varianten2u3-rw3-regionalbahn-voels.png" alt="Schematische Darstellung auf Satelitenbild Variante 2 vs. Variante 3" title="Planungsstand 2026 Variante 2 vs. Variante 3" width="100%" />
 
 ----
 
@@ -131,6 +117,7 @@ Mit der neuen Brückenverbindung wird ein großer Teil der heutigen Schwachstell
 
 Der Kreuzungsbereich bei der Zufahrt zur Bauhaus-Unterführung ist unübersichtlich. Besonders für Radfahrende aus Richtung Bauhaus bestehen durch schlechte Sichtverhältnisse, Steigungen und die Vorrangregelung Gefahren.
 Auch hier braucht es eine sichere und übersichtliche Lösung für alle Verkehrsteilnehmer.
+<img src="radweg-halbschranken-bei-einmundung-wirtschaftsweg.jpg" alt="Kreuzungsbereich Unterführung Bauhaus Völs" title="Titel" width="50%" />
 
 
 ## Verbesserung Verknüpfung mit anderen Verkehrsmitteln
